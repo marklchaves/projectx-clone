@@ -14,3 +14,10 @@ tags:
   - WordPress
 ---
 
+## First Impressions
+
+My very first impression of CloudCannon was oxymoronic at best. I was introduce to CloudCannon just about two months ago. I briefly looked at the CloudCannon site (didn't know anything about Jekyll yet) and thought,
+
+> Oh no, do I really need to *(re)invent* the wheel yet again?
+
+At the same time--I was running into a brick wall trying to squeeze every speed optimisation trick in the book out of WordPress (bloated themes and WordPress hosting company's included). Dealing with these performance headaches made me reminisce about the good old times when the web was so young (c. 1995). I pondered, why can't I go back and use a static webpage for my home page? Why does WordPress stuff everything into the database only to be spit out again as a static HTML file in the end. Surely, not every page needs to be 100% generated from a database (which is just a big series of flat files as well).
