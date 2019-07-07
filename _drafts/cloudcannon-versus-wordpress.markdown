@@ -24,9 +24,12 @@ At the same time--I was running into a brick wall trying to squeeze every speed 
 
 So, there I was. Looking for maybe some sort of hybrid solution when a friend told me their site was hosted on something called CloudCannon.
 
-**TLDR**\: 1) I dreaded the thought of writing *by hand* an entire website in HTML/CSS/JS. *Reinventing* a photo gallery or slider was not appealing to me at all. 2) I grew complacent with not having to write much code. But, I suffered on a daily basis working long hours optimising about a dozen bloated WordPress sites with minimal gains.
+### TLDR
 
-Let's get to the comparison bit.
+1. I dreaded the thought of writing *by hand* an entire website in HTML/CSS/JS. *Reinventing* a photo gallery or slider was not appealing to me at all.
+2. I grew *complacent* with not having to write much code. But, I suffered on a daily basis working long hours **optimising** about a dozen bloated WordPress sites with minimal gains.
+
+Enough whining. Let's look at the code\!
 
 ## What I Like About WordPress
 
