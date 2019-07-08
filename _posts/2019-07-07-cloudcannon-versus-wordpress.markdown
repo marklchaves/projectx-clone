@@ -145,6 +145,6 @@ Lastly, I don't see an obvious *market* or *store* for Jekyll themes. I (luckily
 
 #### CSS Sprites
 
-I would have loved to use CSS sprites for this blog post. To make this post load even faster. Unfortunately, that I would have needed to write this in HTML. Maybe that's my next homework assignment?
+I would have loved to use a CSS sprite for this blog post. Using CSS sprites reduce server round trips. Unfortunately, that means I needed to write this post in HTML. Therein lies the trade-off. Simple/minimal/markdown versus HTML/CSS/JS. Maybe that's my next homework assignment?
 
-If you found this useful, please share it. [Or even buy me a cuppa joe](https://ko-fi.com/marklchaves#){: target="_blank"}.
+If you found this useful, please share it. [Or even buy me a cuppa joe](https://ko-fi.com/marklchaves#){: target="_blank"}. Hint hint ;-)
