@@ -35,15 +35,15 @@ Enough whining. Let's look at the code\!
 
 ## What I Like About WordPress
 
-There are a **plethora** of hosting providers, themes, & plugins. Which is also WordPress' dark-side. For example, if I need a homepage hero *slider*, there are many to choose from. If I need an image *gallery* or a *modal popup*, they are almost always built into a premium theme. Easy. I don't need to go into any code to get these widgets up and running fast.
+There are a **plethora** of hosting providers, themes, & plugins. Which is also WordPress' dark-side. For example, if I need a homepage hero *slider*, there are many out there to choose from. If I need an image *gallery* or a *modal popup*, they are almost always built into a premium theme. I don't need to go into any code to get these widgets up and running fast.
 
-A lot of the widgets and plugins are well designed and sexy. Many are free, *freemium*, or donation-based.
+A lot of available *widgets* and plugins are well designed and *sexy*. Many are free, *freemium*, or donation-based.
 
-Having these *conveniences* can also be a *curse*. See below.
+Having these *conveniences* can also be a *curse*. More on that soon.
 
-Having a bunch of hosting provider options is a *big* benefit. WordPress is a popular website/web CMS platform. Therefore, there is no shortage of finding skilled professional to support a WordPress site.
+Having a bunch of hosting provider options is a *big* benefit. WordPress is a popular website/web CMS (content management system) platform. Therefore, there is no shortage of finding skilled professional to support a WordPress site.
 
-If you have the time, skills, and budget you can have a fast WordPress site that Google PageSpeed loves. I'll have to say, achieving this takes near-heroic efforts.
+If you have the time, skills, and budget you can have a fast WordPress site that Google *PageSpeed* loves. I'll have to say, achieving this takes near-heroic efforts.
 
 ## What I Don't Like About WordPress
 
