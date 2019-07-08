@@ -92,3 +92,5 @@ I don't see a preview button in the editor.
 I don't see an obvious market or store for themes. I (luckily) stumbled upon the two themes that I'm using now.
 
 I don't see a way to create a draft version of a published post.
+
+Ironically enough, I don't see a way to edit HTML/CSS in the CloudCannon editor.
