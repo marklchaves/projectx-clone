@@ -16,9 +16,11 @@ tags:
 
 ## First Impressions
 
-My very first impression of **CloudCannon** was oxymoronic at best. I was introduced to CloudCannon by a friend about two months ago. I briefly looked at the CloudCannon site (didn't know anything about *Jekyll* yet) and thought,
+My very first impression of **CloudCannon** was *oxymoronic* at best. It just didn't make sense at first e.g. to go *sling* around a lot of code to build things that are already available for WordPress.&nbsp;
 
-> "Oh no. Do I really need to *(re)invent* the wheel yet again?"
+I was introduced to CloudCannon by a friend about two months ago. I briefly looked at the CloudCannon site (didn't know anything about *Jekyll* yet) and thought,
+
+> "Oh no. Do I really need to *(re)invent* the wheel yet again? Do I really need to code-up a image carousel when there are hundreds of off-the-shelf WordPress carousels out there?"
 
 At the same time–I was running into a brick wall trying to squeeze every speed optimisation trick in the book out of **WordPress** (bloated themes and WordPress hosting companies included). Dealing with these performance headaches made me reminisce about the good old times. When the web was so young (c. 1995). I pondered, why can't I go back and use a static webpage for my home page? Why does WordPress stuff everything into the database only spit everything out as a static HTML. Surely, not every page needs to be 100% generated from a database (which is just a big series of flat files).
 
