@@ -78,9 +78,9 @@ Any experience WordPress developer knows to always create a child theme for the 
 
 Child themes should absolutely be necessary, but support for child themes is not well advertised. It's an extra step. It adds more complexity and overhead. And to make things worse, most WordPress site owners have no clue they need to use one.
 
-Inconsistent support for *dev* environments. Mixing up original intention of staging environments. This is getting into the weeds, but I need to mention this.
+#### Optimisation Slavery
 
-My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. And, I still need to put it on a CDN if I want to make Google happy. All this for a personal website. Insane.
+My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. And, I still need to put it on a CDN, if I want to make Google happy. All this for a personal website. Insane\!
 
 ## What I Like About CloudCannon
 
@@ -106,7 +106,9 @@ Developing websites using local dev env is fast--it's the way to go. What if I w
 
 The Jekyll ecosystem is lean. I don't need to know phpMyAdmin. I don't need to know SQL. And, the Jekyll culture is an anti-plugin/establishment culture.
 
-Minimal editor. Similar to Medium's editor, which I like.
+#### Editing Content
+
+The CloudCannon content editor is minimalist (and a bit primitive compared to WordPress). This can be good/bad. I love a minimal editor. CloudCannon's eidtor works fine for me in terms of functionality. But, it might not work for someone used to WordPress because lack of bells & whistles.
 
 ## What I Don't Like About CloudCannon
 
