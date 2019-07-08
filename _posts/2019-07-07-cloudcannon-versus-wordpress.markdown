@@ -41,6 +41,8 @@ Having these *conveniences* can also be a *curse*. See below.
 
 Having a bunch of hosting provider options is a *big* benefit. WordPress is a popular website/web CMS platform. Therefore, there is no shortage of finding skilled professional to support a WordPress site.
 
+If you have the time, skills, and budget you can have a fast WordPress site that Google PageSpeed loves. I'll have to say, achieving this takes near-heroic efforts.
+
 ## What I Don't Like About WordPress
 
 #### WordPress Development == Slow Page Refreshes
