@@ -88,7 +88,7 @@ So, we're forced to supply our own child themes. But, support for child themes i
 
 My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. And, Google keeps yelling at to put my site on a CDN, if I want a good PageSpeed score. Really? All this for a personal website. Insane\!
 
-## ![](/uploads/cloudcannon-versus-wordpress/cloudcannon-opengraph-792.jpg){: width="792" height="416"}
+![](/uploads/cloudcannon-versus-wordpress/cloudcannon-opengraph-792.jpg){: width="792" height="416"}
 
 ## What I Like About CloudCannon
 
@@ -96,11 +96,21 @@ My personal WordPress site is pretty simple. Yet, half of my plugins are devoted
 
 I can see all the source HTML I need to see. Yay\! I can do stuff that WordPress rejects in its editor. E.g.
 
-itemscope itemtype="http://schema.org/Blog"
+`itemscope itemtype="http://schema.org/Blog"`
 
 This tiny piece of code is small, but it packs a punch in the **SEO** world. WordPress strips out this code every time I've tried to add it to my site. Arghhh. With CloudCannon–no worries, mate\! In fact the theme this blog is using has this code already in these pages. Now that's responsible coding\! Happy Days :-)
 
 In the WordPress realm, there's probably a bloated 500 file plugin that will do this tiny little thing for you.
+
+This piece of code got me dancing on my kitchen table! In WordPress, trying to include *JavaScript* only when needed is performing oral surgery. Not so, using Jekyll.
+
+![](/uploads/cloudcannon-versus-wordpress/ruby-code-javascript-includes-wb.png){: width="792"}
+
+The four JavaScript files shown above, will get loaded **only** for a page named *masonry*. In a typical WordPress site, these files would get loaded for **every** page whether they are needed or not. Each file costs four server round trips.
+
+Now, imagine you have a WordPress site that has 52 plugins. Each of these plugins requires their own set of say 2-4 JavaScript files. That would cost each of your WordPress pages 52*4 = **208** server calls.
+
+>What's 208 web server requests among friends? No biggie, eh?
 
 #### Local Development Environment
 
