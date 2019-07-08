@@ -16,11 +16,11 @@ tags:
 
 ## First Impressions
 
-My very first impression of **CloudCannon** was oxymoronic at best. I was introduced to CloudCannon by a friend just about two months ago. I briefly looked at the CloudCannon site (didn't know anything about *Jekyll* yet) and thought,
+My very first impression of **CloudCannon** was oxymoronic at best. I was introduced to CloudCannon by a friend about two months ago. I briefly looked at the CloudCannon site (didn't know anything about *Jekyll* yet) and thought,
 
-> "Oh no, do I really need to *(re)invent* the wheel yet again?"
+> "Oh no. Do I really need to *(re)invent* the wheel yet again?"
 
-At the same time–I was running into a brick wall trying to squeeze every speed optimisation trick in the book out of **WordPress** (bloated themes and WordPress hosting company's included). Dealing with these performance headaches made me reminisce about the good old times when the web was so young (c. 1995). I pondered, why can't I go back and use a static webpage for my home page? Why does WordPress stuff everything into the database only to be spit out again as a static HTML file in the end. Surely, not every page needs to be 100% generated from a database (which is just a big series of flat files as well).
+At the same time–I was running into a brick wall trying to squeeze every speed optimisation trick in the book out of **WordPress** (bloated themes and WordPress hosting companies included). Dealing with these performance headaches made me reminisce about the good old times. When the web was so young (c. 1995). I pondered, why can't I go back and use a static webpage for my home page? Why does WordPress stuff everything into the database only spit everything out as a static HTML. Surely, not every page needs to be 100% generated from a database (which is just a big series of flat files).
 
 So, there I was. Looking for maybe some sort of hybrid solution when a friend told me their site was hosted on something called CloudCannon.
 
@@ -41,9 +41,9 @@ A lot of available *widgets* and plugins are well designed and *sexy*. Many are 
 
 Having these *conveniences* can also be a *curse*. More on that soon.
 
-Having a bunch of hosting provider options is a *big* benefit. WordPress is a popular website/web CMS (content management system) platform. Therefore, there is no shortage of finding skilled professional to support a WordPress site.
+Having a bunch of hosting provider options is a *big* benefit. WordPress is the popular website/web CMS (content management system) platform in the world. Therefore, there is no shortage of finding skilled professionals to support a WordPress site.
 
-If you have the time, skills, and budget you can have a fast WordPress site that Google *PageSpeed* loves. I'll have to say, achieving this takes near-heroic efforts.
+If you have the time, skills, and budget you can have a fast WordPress site that Google *PageSpeed* loves. I'll have to say though, achieving this takes near-heroic efforts.
 
 ## What I Don't Like About WordPress
 
@@ -57,13 +57,13 @@ There are way too many moving parts in a typical WordPress site. These moving pa
 
 #### Uncontrollable Page Bloat
 
-Themes provide little control over what gets loaded on your web pages. Some more optimised themes give you some control. But, mostly not at page-level i.e. site-wide control only. And, page-level granularity is what is vital for optimising a website.
+Themes provide little control over what gets loaded on your web pages. More optimised themes give you some control. But, mostly not at page-level i.e. site-wide control only. And, page-level granularity is what is vital for optimising a website.
 
 Standard *general* purpose themes generate way too many *round-trips* to the server (135-156 server requests is common). Obviously, 156 server requests is a ridiculous **waste of resources** for every single page on the site.
 
 #### More Than Enough Rope
 
-Ah, let me count the number of ways to shoot ourselves in the foot. For example, I can add custom CSS to the
+Ah, let me count the number of ways to *shoot* ourselves in the foot. For example, I can add custom CSS to the
 
 1. Appearance &gt; Customise &gt; Additional CSS
 2. Theme's main style.css file
@@ -72,19 +72,19 @@ Ah, let me count the number of ways to shoot ourselves in the foot. For example,
 5. Site builder's page-level Additional CSS code snippet editor
 6. Inline CSS in the text editor
 
-Have fun managing changes and trying to troubleshoot this *spaghetti* architecture.
+Have fun managing changes with this. Let alone trying to find a bug this *spaghetti* architecture.
 
 #### Glossed-Over Child Themes
 
-Any experience WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know about child themes? Why can't WordPress or premium themes just have built-in support for customisations that never get wiped-out when during a theme upgrade?
+Any experience WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know that child themes exist? Why can't WordPress or premium themes just have built-in support for customisations that never get wiped-out when during a theme upgrade? That would make too much sense--I mean, that would be the responsible thing to do.
 
 ![](/uploads/cloudcannon-versus-wordpress/avada-child-theme-warning-792.png){: width="792" height="323"}
 
-Child themes should absolutely be necessary, but support for child themes is not well advertised. It's an extra step. It adds more complexity and overhead. And to make things worse, most WordPress site owners have no clue they need to use one.
+So, we're forced to supply our own child themes. But, support for child themes isn't obvious. Creating a child theme is another extra step. It adds more complexity and overhead. And to make things worse, most WordPress site owners have no clue they need to use one.
 
 #### Optimisation Slavery
 
-My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. And, I still need to put it on a CDN, if I want to make Google happy. All this for a personal website. Insane\!
+My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. And, Google still yells at me saying that I still need to put my on a CDN, if I want a good PageSpeed score. Really? All this for a personal website. Insane\!
 
 ## ![](/uploads/cloudcannon-versus-wordpress/cloudcannon-opengraph-792.jpg){: width="792" height="416"}
 
@@ -116,11 +116,11 @@ The Jekyll ecosystem is lean. I don't need to know PHP or phpMyAdmin (MySQL data
 
 The CloudCannon content editor is minimalist (and, a bit primitive compared to WordPress). This can be good/bad. I love a minimal editor. CloudCannon's editor works fine for me in terms of functionality. But, it might not work for someone used to WordPress because lack of bells & whistles.
 
-Here's one thing I discovered by accident--CMD-L brings up a link modal right in context. How cool is that\! I wish WordPress could do this.
+Here's one thing I discovered by accident–CMD-L brings up a link modal right in context. How cool is that\! I wish WordPress could do this.
 
 ![](/uploads/cloudcannon-versus-wordpress/cloudcannon-editor-blog-post-link-modal-792.png){: width="792" height="585"}
 
-I think the content editor is the weakest link (so far). Read on below to find out why. Before we toss out the baby with the bathwater--we need to give credit to Jekyll's native document format for blog posts. That's **markdown**. Markdown is incredibly powerful and extremely fast. It's about as minimal as you can get when it comes to publishing content. I love it. I'm happy to see it and use it again.
+I think the content editor is the weakest link (so far). Read on below to find out why. Before we toss out the baby with the bathwater–we need to give credit to Jekyll's native document format for blog posts. That's **markdown**. Markdown is incredibly powerful and extremely fast. It's about as minimal as you can get when it comes to publishing content. I love it. I'm happy to see it and use it again.
 
 [Read-up on markdown here](https://guides.github.com/features/mastering-markdown/){: target="_blank"}. By the way, if you use WhatsApp, Try using markdown in your next message. You'll look like a pro\!
 
