@@ -49,7 +49,7 @@ If you have the time, skills, and budget you can have a fast WordPress site that
 
 I really dislike (hate) having to refresh slow loading page builder editors and posts/pages. But, I'm too afraid to install a bloated WordPress development environment and all the third-party plugins that come with it on my laptop.
 
-#### Too Many Moving Parts
+#### Too Many Moving Parts (Plugin-arrhea)
 
 Way too many moving parts. These moving parts change all the time. E.g. WordPress versions, PHP versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. She doesn't even know which ones she really needs. I'm trying to get it down to high thirties low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far.
 
@@ -63,7 +63,7 @@ Too many ways to shoot yourself in the foot. Multiple ways to add custom code (s
 
 Inconsistent support for *dev* environments. Mixing up original intention of staging environments. This is getting into the weeds, but I need to mention this.
 
-My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. Crazy.
+My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. And, I still need to put it on a CDN if I want to make Google happy. All this for a personal website. Insane.
 
 ## What I Like About CloudCannon
 
