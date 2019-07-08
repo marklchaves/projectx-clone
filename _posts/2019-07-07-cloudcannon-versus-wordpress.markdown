@@ -154,21 +154,17 @@ This tiny piece of code is small, but it packs a punch in the **SEO** world. Wor
 
 <gwmw class="ginger-module-highlighter-mistake-type-1" id="gwmw-15626213643827032383652">Arghhh</gwmw>. With CloudCannon–no worries, mate\! In fact the theme this blog is using has this code already in these pages. Now that's responsible coding\! Happy Days :-)
 
-I'm sure, in the WordPress realm, there's a bloated 500 file plugin that will do this tiny little thing for you.
+I'm sure, in the WordPress realm, there's a bloated 500 file plugin that will do this *one tiny little thing* for you.
 
 #### Local Development Environment
 
-I'm back using a version control system\! Something I haven't been able to use in the WordPress universe. And, GitHub rocks\! My live CloudCannon sites, GitHub code repositories, development repositories, and
-
-<gwmw class="ginger-module-highlighter-mistake-type-3" id="gwmw-15626213707011523747827">development site</gwmw> are always in sync. Love it. I don't think I could ever do this with WordPress (smoothly). I wouldn't even know where to start. With CloudCannon, GitHub is a natural part of the process.
+I'm back using a version control system\! Something I haven't been able to use in the WordPress universe. And, GitHub rocks\! My live CloudCannon sites, GitHub code repositories, development repositories, and development site, are always in sync. Love it. I don't think I could ever do this with WordPress (smoothly). I wouldn't even know where to start. With CloudCannon, GitHub is a natural part of the process.
 
 I can build/test/publish
 
 <gwmw class="ginger-module-highlighter-mistake-type-1" id="gwmw-15626213731199925626771">customisations</gwmw> quickly. The dev cycle is light-speed fast compared to WordPress.
 
-So, with GitHub and using GitHub Desktop, my two CloudCannon sites are completely portable. I.e.
-
-<gwmw class="ginger-module-highlighter-mistake-type-2" id="gwmw-15626225687922313061468">there</gwmw> already in the cloud, on the web, and on my desktop. I can take them anywhere that runs Jekyll.
+So, with GitHub and using GitHub Desktop, my two CloudCannon sites are completely portable. I.e., they are already in the cloud, on the web, and on my desktop. I can take them anywhere that runs Jekyll.
 
 Developing websites using local dev env is fast–it's the way to go. What if I want to move the code to another server or another laptop. Easy. Setup Jekyll and Github Desktop and away you go.
 
