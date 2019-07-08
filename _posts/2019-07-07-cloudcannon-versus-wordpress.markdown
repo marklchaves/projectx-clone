@@ -140,3 +140,9 @@ Here's a short laundry list of what I don't like about CloudCannon
 #### Where Are The Jekyll Theme Marketplaces?
 
 Lastly, I don't see an obvious *market* or *store* for Jekyll themes. I (luckily) stumbled upon the two themes that I'm using now.
+
+#### CSS Sprites
+
+I would have loved to use CSS sprites for this blog post. To make this post load even faster. Unfortunately, that I would have needed to write this in HTML. Maybe that's my next homework assignment?
+
+If you found this useful, please share it. [Or even buy me a cuppa joe](https://ko-fi.com/marklchaves#){: target="_blank"}.
