@@ -39,8 +39,44 @@ A lot of the widgets and plugins are well designed and sexy. Many are free, free
 
 Having these *conveniences* can also be a curse. See below.
 
+Having a bunch of hosting providers is a big benefit. WordPress is a popular website/web CMS platform. Therefore, is no shortage of finding skilled professional to support a WordPress site.
+
 ## What I Like About CloudCannon
+
+\#1 Transparency. I can see all the source HTML I need to see. I can do stuff that WordPress rejects in it's editor or stuff that I need to install yet another bloated plugin just to inject a couple lines of code.
+
+I'm back using a version control system\! Yay\! Something I haven't been able to use in the WordPress universe. And, GitHub rocks\! My live CloudCannon sites, GitHub code repositories, development repositories, and development site are always in sync. Love it. I don't this I could ever do this with WordPress. I wouldn't even know where to start. With CloudCannon, GitHub is a natural part of the process.
+
+I can build/test/publish customisations quickly. The dev cycle is light speed compared to WordPress.
+
+\#2 GitHub. Portable. Fast local dev env. Want to move the code to another server or another laptop. Easy\!\!
+
+\#3 Lean. Don't need to know phpMyAdmin. Don't need to know SQL. Almost a anti-plugins environment.
+
+Minimal editor. Similar to Medium's editor, which I like.
 
 ## What I Don't Like About WordPress
 
+Too afraid to install the bloated development environment and third-party plugins on my laptop.
+
+Way too many moving parts. And, these moving parts change all the time. E.g. WordPress versions, PHP versions, plugin updates, and theme upgrades. Most of my clients have way too many plugins. One of my clients has over 50 plugins. She doesn't even know which ones she really needs. I'm trying to get it down to high thirties low forties (still too high for my liking). Auditing and pruning plugins is not easy--putting it lightly. It's been a work in progress for weeks and we're not done yet.
+
+Themes provide little control over what gets loaded on your web pages.
+
+Standard general purpose themes generate way too many roundtrips to the server (135-156 is common). Most of these requests are unnecessary.
+
+Too many ways to shoot yourself in the foot. Multiple ways to add custom code (scary). Child themes should absolutely be necessary, but support for child themes is not well advertised. It's an extra step. It adds more complexity and overhead. And to make things worse, most WordPress site owners have no clue they need to use one.
+
+Inconsistent support for dev environments. Mixing up original intention of staging environments. This is getting into the weeds, but I need to mention this.
+
+My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. Crazy.
+
 ## What I Don't Like About CloudCannon
+
+CMS editor is slow. Takes a few seconds to save a post with no images. Seems to hog my CPU. Very similar to how slow Divi is and how it chokes my computer resources.
+
+I don't see a preview button in the editor.
+
+I don't see an obvious market or store for themes. I (luckily) stumbled upon the two themes that I'm using now.
+
+I don't see a way to create a draft version of a published post.
