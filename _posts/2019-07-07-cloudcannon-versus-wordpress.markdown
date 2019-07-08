@@ -49,17 +49,17 @@ I really dislike (hate) having to refresh slow loading page builder editors and 
 
 #### Too Many Moving Parts
 
-Way too many moving parts. And, these moving parts change all the time. E.g. WordPress versions, PHP versions, plugin updates, and theme upgrades. Most of my clients have way too many plugins. One of my clients has over 50 plugins. She doesn't even know which ones she really needs. I'm trying to get it down to high thirties low forties (still too high for my liking). Auditing and pruning plugins is not easy–putting it lightly. It's been a work in progress for weeks and we're not done yet.
+Way too many moving parts. These moving parts change all the time. E.g. WordPress versions, PHP versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. She doesn't even know which ones she really needs. I'm trying to get it down to high thirties low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far.
 
 #### Uncontrollable Page Bloat
 
 Themes provide little control over what gets loaded on your web pages. Some more optimised themes give you some control. But, mostly not at page-level i.e. site-wide control only. And, page-level granularity is what is vital for optimising a website.
 
-Standard general purpose themes generate way too many *round-trips* to the server (135-156 server requests is common). Obviously, 156 server requests is a ridiculous **waste of resources** for every single page on the site.
+Standard *general* purpose themes generate way too many *round-trips* to the server (135-156 server requests is common). Obviously, 156 server requests is a ridiculous **waste of resources** for every single page on the site.
 
 Too many ways to shoot yourself in the foot. Multiple ways to add custom code (scary). Child themes should absolutely be necessary, but support for child themes is not well advertised. It's an extra step. It adds more complexity and overhead. And to make things worse, most WordPress site owners have no clue they need to use one.
 
-Inconsistent support for dev environments. Mixing up original intention of staging environments. This is getting into the weeds, but I need to mention this.
+Inconsistent support for *dev* environments. Mixing up original intention of staging environments. This is getting into the weeds, but I need to mention this.
 
 My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. Crazy.
 
