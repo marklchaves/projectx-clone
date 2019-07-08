@@ -59,7 +59,7 @@ There are way too many moving parts in a typical WordPress site. These moving pa
 
 Themes provide little control over what gets loaded on your web pages. More optimised themes give you some control. But, mostly not at page-level i.e. site-wide control only. And, page-level granularity is what is vital for optimising a website.
 
-Standard *general* purpose themes generate way too many *round-trips* to the server (135-156 server requests is common). Obviously, 156 server requests is a ridiculous **waste of resources** for every single page on the site.
+Standard *general* purpose themes generate way too many *round-trips* to the server (135-156 server requests is common). Obviously, 156 server requests is a ridiculous **waste of resources** for every single page on the site. As a reference, GTmetrix says **88** requests is the average.
 
 #### More Than Enough Rope
 
