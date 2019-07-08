@@ -31,6 +31,8 @@ So, there I was. Looking for maybe some sort of hybrid solution when a friend to
 
 Enough whining. Let's look at the code\!
 
+![](/uploads/cloudcannon-versus-wordpress/WordPress-logotype-alternative-792.png){: width="792" height="428"}
+
 ## What I Like About WordPress
 
 There are a **plethora** of hosting providers, themes, & plugins. Which is also WordPress' dark-side. For example, if I need a homepage hero *slider*, there are many to choose from. If I need an image *gallery* or a *modal popup*, they are almost always built into a premium theme. Easy. I don't need to go into any code to get these widgets up and running fast.
@@ -76,11 +78,15 @@ Have fun managing changes and trying to troubleshoot this *spaghetti* architectu
 
 Any experience WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know about child themes? Why can't WordPress or premium themes just have built-in support for customisations that never get wiped-out when during a theme upgrade?
 
+![](/uploads/cloudcannon-versus-wordpress/avada-child-theme-warning-792.png){: width="792" height="323"}
+
 Child themes should absolutely be necessary, but support for child themes is not well advertised. It's an extra step. It adds more complexity and overhead. And to make things worse, most WordPress site owners have no clue they need to use one.
 
 #### Optimisation Slavery
 
 My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. And, I still need to put it on a CDN, if I want to make Google happy. All this for a personal website. Insane\!
+
+## ![](/uploads/cloudcannon-versus-wordpress/cloudcannon-opengraph-792.jpg){: width="792" height="416"}
 
 ## What I Like About CloudCannon
 
@@ -110,7 +116,13 @@ The Jekyll ecosystem is lean. I don't need to know phpMyAdmin. I don't need to k
 
 The CloudCannon content editor is minimalist (and a bit primitive compared to WordPress). This can be good/bad. I love a minimal editor. CloudCannon's editor works fine for me in terms of functionality. But, it might not work for someone used to WordPress because lack of bells & whistles.
 
-I think the content editor is the weakest link (so far). Read on to find out why.
+Here's one thing I discovered by accident--CMD-L brings up a link modal right in context. I wish WordPress could do that.
+
+![](/uploads/cloudcannon-versus-wordpress/cloudcannon-editor-blog-post-link-modal-792.png){: width="792" height="585"}
+
+I think the content editor is the weakest link (so far). Read on below to find out why. Before we toss out the baby with the bathwater--we need to give credit to Jekyll's native document format for blog posts. That's **markdown**. Markdown is incredibly powerful and extremely fast. It's about as minimal as you can get when it comes to publishing content. I love it. I'm happy to see it and use it again.
+
+[Read-up on markdown here](https://guides.github.com/features/mastering-markdown/){: target="_blank"}. By the way, if you use WhatsApp, Try using markdown in your next message. You'll look like a pro\!
 
 ## What I Don't Like About CloudCannon
 
