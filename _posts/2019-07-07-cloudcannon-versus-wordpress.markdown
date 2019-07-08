@@ -24,26 +24,26 @@ I was introduced to CloudCannon by a friend about two months ago. I briefly look
 
 At the same time–I was running into a brick wall trying to squeeze every speed optimisation trick in the book out of **WordPress** (bloated themes and WordPress hosting companies included). Dealing with these performance headaches made me reminisce about the good old times. When the web was so young (c. 1995). I pondered, why can't I go back and use a static webpage for my home page? Why does WordPress stuff everything into the database only spit everything out as a static HTML. Surely, not every page needs to be 100% generated from a database (which is just a big series of flat files).
 
-So, there I was. Looking for maybe some sort of hybrid solution when a friend told me their site was hosted on something called CloudCannon.
+So, there I was. Looking for (maybe) some sort of hybrid solution when a friend told me their site was hosted on something called CloudCannon.
 
 ### TLDR
 
-1. I dreaded the thought of writing *by hand* an entire website in HTML/CSS/JS. *Reinventing* a photo gallery or slider was not appealing to me at all.
-2. I grew *complacent* with not having to write much code. But, I suffered on a daily basis working long hours **optimising** about a dozen bloated WordPress sites with minimal gains.
+1. Looking at CloudCannon for the first time, I dreaded the thought of writing *by hand* an entire website in HTML/CSS/JS. *Reinventing* a photo gallery or slider seemed like a complete waste.
+2. With WordPress, I grew *complacent* with not having to write much code. But, I suffered on a daily basis working long hours **optimising** about a dozen bloated WordPress sites with minimal gains.
 
-Enough whining. Let's look at the code\!
+**Enough whining. Let's look at the code\!**
 
 ![](/uploads/cloudcannon-versus-wordpress/WordPress-logotype-alternative-792.png){: width="792" height="428"}
 
 ## What I Like About WordPress
 
-There are a **plethora**. Hold on. There is an **extravaganza** of hosting providers, themes, & plugins. Which is also WordPress' dark-side. For example, if I need a homepage hero *slider*, there are many out there to choose from. If I need an image *gallery* or a *modal popup*, they are almost always built into a premium theme. I don't need to go into any code to get these widgets up and running fast.
+There are a **plethora**. Hold on. There is an **extravaganza** of hosting providers, themes, & plugins. Which is also WordPress' *dark-side*. For example, if I need a homepage hero *slider*, there are many out there to choose from. If I need an image *gallery* or a *modal popup*, they are almost always built into a premium theme. I don't need to go into any code to get these widgets up and running fast.
 
-A lot of available *widgets* and plugins are well designed and *sexy*. Many are free, *freemium*, or donation-based.
+A lot of the available *widgets* and plugins are **well designed** and *sexy*. They look amazing and they work well. Many are free, *freemium*, or donation-based.
 
 Having these *conveniences* can also be a *curse*. More on that soon.
 
-Having a bunch of hosting provider options is a *big* benefit. WordPress is the popular website/web CMS (content management system) platform in the world. Therefore, there is no shortage of finding skilled professionals to support a WordPress site.
+Having a bunch of **hosting provider** options is a *big* benefit. WordPress is the most popular website/web CMS (content management system) platform in the world\! Therefore, there is no shortage of finding skilled professionals to support a WordPress site.
 
 If you have the time, skills, and budget you can have a fast WordPress site that Google *PageSpeed* loves. I'll have to say though, achieving this takes near-heroic efforts.
 
@@ -55,13 +55,13 @@ I really dislike (hate) having to refresh slow loading page builder editors and 
 
 #### Too Many Moving Parts (Plugin-arrhea)
 
-There are way too many moving parts in a typical WordPress site. These moving parts change all the time. E.g. WordPress versions, **PHP** versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. She doesn't even know which ones she really needs. I'm trying to get it down to high thirties low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far.
+There are way too many moving parts in a typical WordPress site. These moving parts change all the time. E.g. WordPress versions, **PHP** versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. They don't even know which plugins they really need and most of them are outdated (one hasn't been support for 6 years--no joke). I'm trying to get it down to high thirties low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far. Every WordPress developer knows having too many plugins is a **security risk** and performance killer.
 
 #### Uncontrollable Page Bloat
 
-Themes provide little control over what gets loaded on your web pages. More optimised themes give you some control. But, mostly not at page-level i.e. site-wide control only. And, page-level granularity is what is vital for optimising a website.
+Themes provide little control over what gets loaded on your web pages. More optimised themes give you some control. But, mostly **not** at page-level i.e. site-wide control only. Page-level granularity is where you really need the control--it's vital for optimising a website.
 
-Standard *general* purpose themes generate way too many *round-trips* to the server (135-156 server requests is common). Obviously, 156 server requests is a ridiculous **waste of resources** for every single page on the site. As a reference, GTmetrix says **88** requests is the average.
+Standard *general* purpose themes generate way too many *round-trips* to the server (135-156 server requests is common). Obviously, 156 server requests is a ridiculous **waste of resources** for every single page on the site. As a reference, **GTmetrix** (a leading site performance test tool) says **88** requests is the average.
 
 #### More Than Enough Rope
 
@@ -74,11 +74,11 @@ Ah, let me count the number of ways to *shoot* ourselves in the foot. For exampl
 5. Site builder's page-level Additional CSS code snippet editor
 6. Inline CSS in the text editor
 
-Have fun managing changes with this. Let alone trying to find a bug this *spaghetti* architecture.
+Have fun managing changes with this. Let alone trying to find a **bug**&nbsp;this *spaghetti* architecture.
 
 #### Glossed-Over Child Themes
 
-Any experience WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know that child themes exist? Why can't WordPress or premium themes just have built-in support for customisations that never get wiped-out when during a theme upgrade? That would make too much sense–I mean, that would be the responsible thing to do.
+Any experience WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know that child themes exist? Why WordPress theme companies **deliberately build themes that they know will absolutely break** unless the site owner creates a child theme? That would make too much sense–I mean, that would be the responsible thing to do.
 
 ![](/uploads/cloudcannon-versus-wordpress/avada-child-theme-warning-792.png){: width="792" height="323"}
 
