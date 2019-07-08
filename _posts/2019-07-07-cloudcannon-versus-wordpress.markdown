@@ -20,16 +20,16 @@ My very first impression of **CloudCannon** was *oxymoronic* at best. It just di
 
 I was introduced to CloudCannon by a friend about two months ago. I briefly looked at the CloudCannon site (didn't know anything about *Jekyll* yet) and thought,
 
-> "Oh no. Do I really need to *(re)invent* the wheel yet again? Do I really need to code-up a image carousel when there are hundreds of off-the-shelf WordPress carousels out there?"
+> "Oh no. Do I really need to *(re)invent* the wheel yet again? Do I really need to code-up an image carousel when there are hundreds of off-the-shelf WordPress carousels out there?"
 
 At the same time–I was running into a brick wall trying to squeeze every speed optimisation trick in the book out of **WordPress** (bloated themes and WordPress hosting companies included). Dealing with these performance headaches made me reminisce about the good old times. When the web was so young (c. 1995). I pondered, why can't I go back and use a static webpage for my home page? Why does WordPress stuff everything into the database only spit everything out as a static HTML. Surely, not every page needs to be 100% generated from a database (which is just a big series of flat files).
 
 So, there I was. Looking for (maybe) some sort of hybrid solution when a friend told me their site was hosted on something called CloudCannon.
 
-### TLDR
+### TL:DNR
 
 1. Looking at CloudCannon for the first time, I dreaded the thought of writing *by hand* an entire website in HTML/CSS/JS. *Reinventing* a photo gallery or slider seemed like a complete waste.
-2. With WordPress, I grew *complacent* with not having to write much code. But, I suffered on a daily basis working long hours **optimising** about a dozen bloated WordPress sites with minimal gains.
+2. With WordPress, I grew *complacent* with not having to write much code. But, I suffered on a daily basis, working long hours **optimising** about a dozen bloated WordPress sites with minimal gains.
 
 **Enough whining. Let's look at the code\!**
 
@@ -37,7 +37,7 @@ So, there I was. Looking for (maybe) some sort of hybrid solution when a friend 
 
 ## What I Like About WordPress
 
-There are a **plethora**. Hold on. There is an **extravaganza** of hosting providers, themes, & plugins. Which is also WordPress' *dark-side*. For example, if I need a homepage hero *slider*, there are many out there to choose from. If I need an image *gallery* or a *modal popup*, they are almost always built into a premium theme. I don't need to go into any code to get these widgets up and running fast.
+There is a **plethora**. Hold on. There is an **extravaganza** of hosting providers, themes, & plugins. Which is also WordPress' *dark-side*. For example, if I need a homepage hero *slider*, there are many out there to choose from. If I need an image *gallery* or a *modal popup*, they are almost always built into a premium theme. I don't need to go into any code to get these widgets up and running fast.
 
 A lot of the available *widgets* and plugins are **well designed** and *sexy*. They look amazing and they work well. Many are free, *freemium*, or donation-based.
 
@@ -45,7 +45,7 @@ Having these *conveniences* can also be a *curse*. More on that soon.
 
 Having a bunch of **hosting provider** options is a *big* benefit. WordPress is the most popular website/web CMS (content management system) platform in the world\! Therefore, there is no shortage of finding skilled professionals to support a WordPress site.
 
-If you have the time, skills, and budget you can have a fast WordPress site that Google *PageSpeed* loves. I'll have to say though, achieving this takes near-heroic efforts.
+If you have the time, skills, and budget, you can have a fast WordPress site that Google *PageSpeed* loves. I'll have to say though, achieving this takes near-heroic efforts.
 
 ## What I Don't Like About WordPress
 
@@ -55,13 +55,13 @@ I really dislike (hate) having to refresh slow loading page builder editors and 
 
 #### Too Many Moving Parts (Plugin-arrhea)
 
-There are way too many moving parts in a typical WordPress site. These moving parts change all the time. E.g. WordPress versions, **PHP** versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. They don't even know which plugins they really need and most of them are outdated (one hasn't been support for 6 years--no joke). I'm trying to get it down to high thirties low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far. Every WordPress developer knows having too many plugins is a **security risk** and performance killer.
+There are way too many moving parts in a typical WordPress site. These moving parts change all the time. E.g. WordPress versions, **PHP** versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. They don't even know which plugins they really need and most of them are outdated (one hasn't been supported for 6 years--no joke). I'm trying to get it down to high thirties, low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far. Every WordPress developer knows having too many plugins is a **security risk** and performance killer.
 
 #### Uncontrollable Page Bloat
 
-Themes provide little control over what gets loaded on your web pages. More optimised themes give you some control. But, mostly **not** at page-level i.e. site-wide control only. Page-level granularity is where you really need the control--it's vital for optimising a website.
+Themes provide little control over what gets loaded on your web pages. More optimised themes give you some control. But, mostly **not** at page-level i.e., site-wide control only. Page-level granularity is where you really need the control--it's vital for optimising a website.
 
-Standard *general* purpose themes generate way too many *round-trips* to the server (135-156 server requests is common). Obviously, 156 server requests is a ridiculous **waste of resources** for every single page on the site. As a reference, **GTmetrix** (a leading site performance test tool) says **88** requests is the average.
+Standard *general* purpose themes generate way too many *round-trips* to the server (135-156 server requests are common). Obviously, 156 server requests are a ridiculous **waste of resources** for every single page on the site. As a reference, **GTmetrix** (a leading site performance test tool) says **88** requests are the average.
 
 #### More Than Enough Rope
 
@@ -108,7 +108,7 @@ I'm back using a version control system\! Something I haven't been able to use i
 
 I can build/test/publish customisations quickly. The dev cycle is light-speed fast compared to WordPress.
 
-So, with GitHub and using GitHub Desktop, my two CloudCannon sites are completely portable. I.e. their already in the cloud, on the web, and on my desktop. I can take them anywhere that runs Jekyll.
+So, with GitHub and using GitHub Desktop, my two CloudCannon sites are completely portable. I.e., they are already in the cloud, on the web, and on my desktop. I can take them anywhere that runs Jekyll.
 
 Developing websites using local dev env is fast–it's the way to go. What if I want to move the code to another server or another laptop. Easy. Setup Jekyll and Github Desktop and away you go.
 
