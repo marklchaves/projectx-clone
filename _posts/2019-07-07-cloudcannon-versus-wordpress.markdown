@@ -76,7 +76,7 @@ Have fun managing changes with this. Let alone trying to find a bug this *spaghe
 
 #### Glossed-Over Child Themes
 
-Any experience WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know that child themes exist? Why can't WordPress or premium themes just have built-in support for customisations that never get wiped-out when during a theme upgrade? That would make too much sense--I mean, that would be the responsible thing to do.
+Any experience WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know that child themes exist? Why can't WordPress or premium themes just have built-in support for customisations that never get wiped-out when during a theme upgrade? That would make too much sense–I mean, that would be the responsible thing to do.
 
 ![](/uploads/cloudcannon-versus-wordpress/avada-child-theme-warning-792.png){: width="792" height="323"}
 
@@ -84,7 +84,7 @@ So, we're forced to supply our own child themes. But, support for child themes i
 
 #### Optimisation Slavery
 
-My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. And, Google still yells at me saying that I still need to put my on a CDN, if I want a good PageSpeed score. Really? All this for a personal website. Insane\!
+My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. And, Google keeps yelling at to put my site on a CDN, if I want a good PageSpeed score. Really? All this for a personal website. Insane\!
 
 ## ![](/uploads/cloudcannon-versus-wordpress/cloudcannon-opengraph-792.jpg){: width="792" height="416"}
 
