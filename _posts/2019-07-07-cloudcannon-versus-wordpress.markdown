@@ -35,7 +35,7 @@ Enough whining. Let's look at the code\!
 
 ## What I Like About WordPress
 
-There are a **plethora** of hosting providers, themes, & plugins. Which is also WordPress' dark-side. For example, if I need a homepage hero *slider*, there are many out there to choose from. If I need an image *gallery* or a *modal popup*, they are almost always built into a premium theme. I don't need to go into any code to get these widgets up and running fast.
+There are a **plethora**. Hold on. There is an **extravaganza** of hosting providers, themes, & plugins. Which is also WordPress' dark-side. For example, if I need a homepage hero *slider*, there are many out there to choose from. If I need an image *gallery* or a *modal popup*, they are almost always built into a premium theme. I don't need to go into any code to get these widgets up and running fast.
 
 A lot of available *widgets* and plugins are well designed and *sexy*. Many are free, *freemium*, or donation-based.
 
@@ -47,13 +47,13 @@ If you have the time, skills, and budget you can have a fast WordPress site that
 
 ## What I Don't Like About WordPress
 
-#### WordPress Development == Slow Page Refreshes
+#### WordPress Development == Sloooow Page Refreshes
 
 I really dislike (hate) having to refresh slow loading page builder editors and posts/pages. But, I'm too afraid to install a bloated WordPress development environment and all the third-party plugins that come with it on my laptop.
 
 #### Too Many Moving Parts (Plugin-arrhea)
 
-Way too many moving parts. These moving parts change all the time. E.g. WordPress versions, PHP versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. She doesn't even know which ones she really needs. I'm trying to get it down to high thirties low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far.
+There are way too many moving parts in a typical WordPress site. These moving parts change all the time. E.g. WordPress versions, **PHP** versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. She doesn't even know which ones she really needs. I'm trying to get it down to high thirties low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far.
 
 #### Uncontrollable Page Bloat
 
