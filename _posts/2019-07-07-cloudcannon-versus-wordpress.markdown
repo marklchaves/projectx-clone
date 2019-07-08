@@ -6,7 +6,7 @@ description: >-
   First impressions from spinning up a couple Jekyll sites on CloudCannon.
   Coming from a former software engineer who found himself supporting WordPress
   sites since 2015.
-image: /uploads/cloudcannon-wordpress-logos.png
+image: /uploads/cloudcannon-versus-wordpress/cloudcannon-wordpress-logos.png
 author: mark l chaves
 tags:
   - Review
@@ -90,7 +90,7 @@ I can see all the source HTML I need to see. Yay\! I can do stuff that WordPress
 
 itemscope itemtype="http://schema.org/Blog"
 
-This tiny piece of code is small, but it packs a punch in the **SEO** world. WordPress strips out this code every time I've try to add it to my site. Arghhh. With CloudCannon--no worries, mate\! Happy Days :-)
+This tiny piece of code is small, but it packs a punch in the **SEO** world. WordPress strips out this code every time I've try to add it to my site. Arghhh. With CloudCannon–no worries, mate\! Happy Days :-)
 
 I'm sure in the WordPress realm, there's a bloated 500 file plugin that will do this this little thing for you.
 
@@ -102,7 +102,7 @@ I can build/test/publish customisations quickly. The dev cycle is light speed co
 
 So, with GitHub and using GitHub Desktop, my two CloudCannon sites are completely portable. I.e. their already in the cloud, on the web, and on my desktop. I can take them anywhere that runs Jekyll.
 
-Developing websites using local dev env is fast--it's the way to go. What if I want to move the code to another server or another laptop. Easy. Setup Jekyll and Github Desktop and away you go.
+Developing websites using local dev env is fast–it's the way to go. What if I want to move the code to another server or another laptop. Easy. Setup Jekyll and Github Desktop and away you go.
 
 The Jekyll ecosystem is lean. I don't need to know phpMyAdmin. I don't need to know SQL. And, the Jekyll culture is an anti-plugin/establishment culture.
 
