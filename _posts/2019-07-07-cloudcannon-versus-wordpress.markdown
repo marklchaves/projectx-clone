@@ -104,25 +104,27 @@ I'm sure in the WordPress realm, there's a bloated 500 file plugin that will do 
 
 I'm back using a version control system\! Something I haven't been able to use in the WordPress universe. And, GitHub rocks\! My live CloudCannon sites, GitHub code repositories, development repositories, and development site are always in sync. Love it. I don't think I could ever do this with WordPress (smoothly). I wouldn't even know where to start. With CloudCannon, GitHub is a natural part of the process.
 
-I can build/test/publish customisations quickly. The dev cycle is light speed compared to WordPress.
+I can build/test/publish customisations quickly. The dev cycle is light-speed fast compared to WordPress.
 
 So, with GitHub and using GitHub Desktop, my two CloudCannon sites are completely portable. I.e. their already in the cloud, on the web, and on my desktop. I can take them anywhere that runs Jekyll.
 
 Developing websites using local dev env is fast–it's the way to go. What if I want to move the code to another server or another laptop. Easy. Setup Jekyll and Github Desktop and away you go.
 
-The Jekyll ecosystem is lean. I don't need to know phpMyAdmin. I don't need to know SQL. And, the Jekyll culture is an anti-plugin/establishment culture.
+The Jekyll ecosystem is lean. I don't need to know PHP or phpMyAdmin (MySQL database manager). I don't need to know SQL. And, the Jekyll culture is an anti-plugin/establishment culture.
 
 #### Editing Content
 
-The CloudCannon content editor is minimalist (and a bit primitive compared to WordPress). This can be good/bad. I love a minimal editor. CloudCannon's editor works fine for me in terms of functionality. But, it might not work for someone used to WordPress because lack of bells & whistles.
+The CloudCannon content editor is minimalist (and, a bit primitive compared to WordPress). This can be good/bad. I love a minimal editor. CloudCannon's editor works fine for me in terms of functionality. But, it might not work for someone used to WordPress because lack of bells & whistles.
 
-Here's one thing I discovered by accident--CMD-L brings up a link modal right in context. I wish WordPress could do that.
+Here's one thing I discovered by accident--CMD-L brings up a link modal right in context. How cool is that\! I wish WordPress could do this.
 
 ![](/uploads/cloudcannon-versus-wordpress/cloudcannon-editor-blog-post-link-modal-792.png){: width="792" height="585"}
 
 I think the content editor is the weakest link (so far). Read on below to find out why. Before we toss out the baby with the bathwater--we need to give credit to Jekyll's native document format for blog posts. That's **markdown**. Markdown is incredibly powerful and extremely fast. It's about as minimal as you can get when it comes to publishing content. I love it. I'm happy to see it and use it again.
 
 [Read-up on markdown here](https://guides.github.com/features/mastering-markdown/){: target="_blank"}. By the way, if you use WhatsApp, Try using markdown in your next message. You'll look like a pro\!
+
+The downside is that markdown will take some getting used to if all you know are visual editors. The good news is, I bet you will soon be addicted to how much more productive/faster you become in a short time.
 
 ## What I Don't Like About CloudCannon
 
@@ -131,8 +133,10 @@ Here's a short laundry list of what I don't like about CloudCannon
 #### Content Editor
 
 1. CMS editor is slow. Takes a few seconds to save a post with no images. Seems to hog my CPU. Very similar to how slow Divi is and how it chokes my computer resources. I ran some performance tests and discovered that the Divi page builder editor actually takes up less CPU. I didn't this that was possible\!
-2. I don't see a preview button in the editor.
-3. I don't see a way to create a draft version of a published post.
-4. Ironically enough, I don't see a way to edit HTML/CSS in the CloudCannon editor.
+2. I don't see a preview button in the editor. I had to publish my draft to see what it would look like.
+3. I don't see a way to create a draft version of a published post. In WordPress, you can make draft from a post in one-click.
+4. Ironically enough, I don't see a way to edit HTML/CSS in the CloudCannon editor. You have to get out of the content editor and go into the files directory. Find the blog post markdown file and bring it up in the code editor.
+
+#### Where Are The Jekyll Theme Marketplaces?
 
 Lastly, I don't see an obvious *market* or *store* for Jekyll themes. I (luckily) stumbled upon the two themes that I'm using now.
