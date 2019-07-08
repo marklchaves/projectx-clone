@@ -132,9 +132,9 @@ Here's a short laundry list of what I don't like about CloudCannon
 
 #### Content Editor
 
-1. CMS editor is slow. Takes a few seconds to save a post with no images. Seems to hog my CPU. Very similar to how slow Divi is and how it chokes my computer resources. I ran some performance tests and discovered that the Divi page builder editor actually takes up less CPU. I didn't this that was possible\!
+1. The content editor is slow. It takes a few seconds to save a post with no images. The editor seems to hog my CPU. Very similar to how slow Divi is and how Divi chokes my computer resources. I ran some performance tests and discovered that the Divi page builder editor actually takes up less CPU than CloudCannon's content editor. I didn't this that was possible\!
 2. I don't see a preview button in the editor. I had to publish my draft to see what it would look like.
-3. I don't see a way to create a draft version of a published post. In WordPress, you can make draft from a post in one-click.
+3. I don't see a way to create a draft version of a published post. In WordPress, you can make draft from a published post in one-click.
 4. Ironically enough, I don't see a way to edit HTML/CSS in the CloudCannon editor. You have to get out of the content editor and go into the files directory. Find the blog post markdown file and bring it up in the code editor.
 
 #### Where Are The Jekyll Theme Marketplaces?
