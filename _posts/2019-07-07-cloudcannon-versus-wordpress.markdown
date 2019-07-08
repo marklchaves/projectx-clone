@@ -122,9 +122,9 @@ Here's one thing I discovered by accident–CMD-L brings up a link modal right i
 
 I think the content editor is the weakest link (so far). Read on below to find out why. Before we toss out the baby with the bathwater–we need to give credit to Jekyll's native document format for blog posts. That's **markdown**. Markdown is incredibly powerful and extremely fast. It's about as minimal as you can get when it comes to publishing content. I love it. I'm happy to see it and use it again.
 
-[Read-up on markdown here](https://guides.github.com/features/mastering-markdown/){: target="_blank"}. By the way, if you use WhatsApp, Try using markdown in your next message. You'll look like a pro\!
+[Read-up on markdown here](https://guides.github.com/features/mastering-markdown/){: target="_blank"}. By the way, if you use **WhatsApp** or **Slack**, Try using markdown in your next message. You'll look like a pro\!
 
-The downside is that markdown will take some getting used to if all you know are visual editors. The good news is, I bet you will soon be addicted to how much more productive/faster you become in a short time.
+The downside is that markdown will take some getting used to if all you know are visual editors. The good news is, I bet you will soon be addicted to how much more productive/faster you become (in a short time).
 
 ## What I Don't Like About CloudCannon
 
