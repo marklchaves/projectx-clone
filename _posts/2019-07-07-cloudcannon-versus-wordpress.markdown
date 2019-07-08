@@ -59,7 +59,24 @@ Themes provide little control over what gets loaded on your web pages. Some more
 
 Standard *general* purpose themes generate way too many *round-trips* to the server (135-156 server requests is common). Obviously, 156 server requests is a ridiculous **waste of resources** for every single page on the site.
 
-Too many ways to shoot yourself in the foot. Multiple ways to add custom code (scary). Child themes should absolutely be necessary, but support for child themes is not well advertised. It's an extra step. It adds more complexity and overhead. And to make things worse, most WordPress site owners have no clue they need to use one.
+#### More Than Enough Rope
+
+Ah, let me count the number of ways to shoot ourselves in the foot. For example, I can add custom CSS to the
+
+1. Appearance &gt; Customise &gt; Additional CSS
+2. Theme's main style.css file
+3. Child theme's style.css file
+4. Theme editor
+5. Site builder's page-level Additional CSS code snippet editor
+6. Inline CSS in the text editor
+
+Have fun managing changes and trying to troubleshoot this *spaghetti* architecture.
+
+#### Glossed-Over Child Themes
+
+Any experience WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know about child themes? Why can't WordPress or premium themes just have built-in support for customisations that never get wiped-out when during a theme upgrade?
+
+Child themes should absolutely be necessary, but support for child themes is not well advertised. It's an extra step. It adds more complexity and overhead. And to make things worse, most WordPress site owners have no clue they need to use one.
 
 Inconsistent support for *dev* environments. Mixing up original intention of staging environments. This is getting into the weeds, but I need to mention this.
 
@@ -69,17 +86,25 @@ My personal WordPress site is pretty simple. Yet, half of my plugins are devoted
 
 #### Transparency
 
-I can see all the source HTML I need to see. I can do stuff that WordPress rejects in it's editor or stuff that I need to install yet another bloated plugin just to inject a couple lines of code.
+I can see all the source HTML I need to see. Yay\! I can do stuff that WordPress rejects in its editor. E.g.
+
+itemscope itemtype="http://schema.org/Blog"
+
+This tiny piece of code is small, but it packs a punch in the **SEO** world. WordPress strips out this code every time I've try to add it to my site. Arghhh. With CloudCannon--no worries, mate\! Happy Days :-)
+
+I'm sure in the WordPress realm, there's a bloated 500 file plugin that will do this this little thing for you.
 
 #### Local Development Environment
 
-I'm back using a version control system\! Yay\! Something I haven't been able to use in the WordPress universe. And, GitHub rocks\! My live CloudCannon sites, GitHub code repositories, development repositories, and development site are always in sync. Love it. I don't this I could ever do this with WordPress. I wouldn't even know where to start. With CloudCannon, GitHub is a natural part of the process.
+I'm back using a version control system\! Something I haven't been able to use in the WordPress universe. And, GitHub rocks\! My live CloudCannon sites, GitHub code repositories, development repositories, and development site are always in sync. Love it. I don't think I could ever do this with WordPress (smoothly). I wouldn't even know where to start. With CloudCannon, GitHub is a natural part of the process.
 
 I can build/test/publish customisations quickly. The dev cycle is light speed compared to WordPress.
 
-\#2 GitHub. Portable. Fast local dev env. Want to move the code to another server or another laptop. Easy\!\!
+So, with GitHub and using GitHub Desktop, my two CloudCannon sites are completely portable. I.e. their already in the cloud, on the web, and on my desktop. I can take them anywhere that runs Jekyll.
 
-\#3 Lean. Don't need to know phpMyAdmin. Don't need to know SQL. Almost a anti-plugins environment.
+Developing websites using local dev env is fast--it's the way to go. What if I want to move the code to another server or another laptop. Easy. Setup Jekyll and Github Desktop and away you go.
+
+The Jekyll ecosystem is lean. I don't need to know phpMyAdmin. I don't need to know SQL. And, the Jekyll culture is an anti-plugin/establishment culture.
 
 Minimal editor. Similar to Medium's editor, which I like.
 
