@@ -16,9 +16,9 @@ tags:
 
 ## First Impressions
 
-My very first impression of **CloudCannon** was oxymoronic at best. I was introduce to CloudCannon just about two months ago. I briefly looked at the CloudCannon site (didn't know anything about *Jekyll* yet) and thought,
+My very first impression of **CloudCannon** was oxymoronic at best. I was introduced to CloudCannon by a friend just about two months ago. I briefly looked at the CloudCannon site (didn't know anything about *Jekyll* yet) and thought,
 
-> Oh no, do I really need to *(re)invent* the wheel yet again?
+> "Oh no, do I really need to *(re)invent* the wheel yet again?"
 
 At the same time–I was running into a brick wall trying to squeeze every speed optimisation trick in the book out of **WordPress** (bloated themes and WordPress hosting company's included). Dealing with these performance headaches made me reminisce about the good old times when the web was so young (c. 1995). I pondered, why can't I go back and use a static webpage for my home page? Why does WordPress stuff everything into the database only to be spit out again as a static HTML file in the end. Surely, not every page needs to be 100% generated from a database (which is just a big series of flat files as well).
 
@@ -32,6 +32,12 @@ So, there I was. Looking for maybe some sort of hybrid solution when a friend to
 Enough whining. Let's look at the code\!
 
 ## What I Like About WordPress
+
+There are a **plethora** of hosting providers, themes, & plugins. Which is also WordPress' dark-side. For example, if I need a homepage hero *slider*, there are many to choose from. If I need an image *gallery* or a *modal popup*, they are almost always built into a premium theme. Easy. I don't need to go into any code to get these widgets up and running fast.
+
+A lot of the widgets and plugins are well designed and sexy. Many are free, freemium, or donation-based.
+
+Having these *conveniences* can also be a curse. See below.
 
 ## What I Like About CloudCannon
 
