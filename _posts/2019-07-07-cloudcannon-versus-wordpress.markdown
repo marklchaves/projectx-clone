@@ -96,7 +96,7 @@ I can see all the source HTML I need to see. Yay\! I can do stuff that WordPress
 
 itemscope itemtype="http://schema.org/Blog"
 
-This tiny piece of code is small, but it packs a punch in the **SEO** world. WordPress strips out this code every time I've try to add it to my site. Arghhh. With CloudCannon–no worries, mate\! Happy Days :-)
+This tiny piece of code is small, but it packs a punch in the **SEO** world. WordPress strips out this code every time I've try to add it to my site. Arghhh. With CloudCannon–no worries, mate\! In fact the theme this blog is using has this code already in these pages. How responsible is that\! Happy Days :-)
 
 I'm sure in the WordPress realm, there's a bloated 500 file plugin that will do this this little thing for you.
 
