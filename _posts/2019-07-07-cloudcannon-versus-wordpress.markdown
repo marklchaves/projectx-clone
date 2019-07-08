@@ -213,4 +213,4 @@ Lastly, I don't see an obvious *market* or *store* for Jekyll themes. I (luckily
 
 I would have loved to use a CSS sprite for this blog post. Using CSS sprites reduce server round trips. Unfortunately, that means I needed to write this post in HTML. Therein lies the trade-off. Simple/minimal/markdown versus HTML/CSS/JS. Maybe that's my next homework assignment?
 
-If you found this useful, please share it. [Or even buy me a cuppa joe](https://ko-fi.com/marklchaves#){: target="_blank"}.
+If you found this useful, please share it. [Or, maybe buy me a cuppa joe](https://ko-fi.com/marklchaves#){: target="_blank"}&nbsp;(hint hint).&nbsp;
