@@ -16,7 +16,7 @@ tags:
 
 ## First Impressions
 
-My very first impression of **CloudCannon** was *oxymoronic* at best. It just didn't make sense at first e.g. to go *sling* around a lot of code to build things that are already available for WordPress.&nbsp;
+My very first impression of **CloudCannon** was *oxymoronic* at best. It just didn't make sense at first, e.g., to go *sling* around a lot of code to build things that are already available for WordPress.&nbsp;
 
 I was introduced to CloudCannon by a friend about two months ago. I briefly looked at the CloudCannon site (didn't know anything about *Jekyll* yet) and thought,
 
@@ -59,7 +59,7 @@ There are way too many moving parts in a typical WordPress site. These moving pa
 
 #### Uncontrollable Page Bloat
 
-Themes provide little control over what gets loaded on your web pages. More optimised themes give you some control. But, mostly **not** at page-level i.e., site-wide control only. Page-level granularity is where you really need the control--it's vital for optimising a website.
+Themes provide little control over what gets loaded on your web pages. More optimised themes give you some control. But, mostly **not** at page-level, i.e., site-wide control only. Page-level granularity is where you really need the control--it's vital for optimising a website.
 
 Standard *general* purpose themes generate way too many *round-trips* to the server (135-156 server requests are common). Obviously, 156 server requests are a ridiculous **waste of resources** for every single page on the site. As a reference, **GTmetrix** (a leading site performance test tool) says **88** requests are the average.
 
@@ -100,7 +100,7 @@ itemscope itemtype="http://schema.org/Blog"
 
 This tiny piece of code is small, but it packs a punch in the **SEO** world. WordPress strips out this code every time I've tried to add it to my site. Arghhh. With CloudCannon–no worries, mate\! In fact the theme this blog is using has this code already in these pages. Now that's responsible coding\! Happy Days :-)
 
-Surely in the WordPress realm, there's a bloated 500 file plugin that will do this tiny little thing for you.
+In the WordPress realm, there's probably a bloated 500 file plugin that will do this tiny little thing for you.
 
 #### Local Development Environment
 
