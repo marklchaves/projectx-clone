@@ -108,16 +108,19 @@ The Jekyll ecosystem is lean. I don't need to know phpMyAdmin. I don't need to k
 
 #### Editing Content
 
-The CloudCannon content editor is minimalist (and a bit primitive compared to WordPress). This can be good/bad. I love a minimal editor. CloudCannon's eidtor works fine for me in terms of functionality. But, it might not work for someone used to WordPress because lack of bells & whistles.
+The CloudCannon content editor is minimalist (and a bit primitive compared to WordPress). This can be good/bad. I love a minimal editor. CloudCannon's editor works fine for me in terms of functionality. But, it might not work for someone used to WordPress because lack of bells & whistles.
+
+I think the content editor is the weakest link (so far). Read on to find out why.
 
 ## What I Don't Like About CloudCannon
 
-CMS editor is slow. Takes a few seconds to save a post with no images. Seems to hog my CPU. Very similar to how slow Divi is and how it chokes my computer resources.
+Here's a short laundry list of what I don't like about CloudCannon
 
-I don't see a preview button in the editor.
+#### Content Editor
 
-I don't see an obvious market or store for themes. I (luckily) stumbled upon the two themes that I'm using now.
+1. CMS editor is slow. Takes a few seconds to save a post with no images. Seems to hog my CPU. Very similar to how slow Divi is and how it chokes my computer resources. I ran some performance tests and discovered that the Divi page builder editor actually takes up less CPU. I didn't this that was possible\!
+2. I don't see a preview button in the editor.
+3. I don't see a way to create a draft version of a published post.
+4. Ironically enough, I don't see a way to edit HTML/CSS in the CloudCannon editor.
 
-I don't see a way to create a draft version of a published post.
-
-Ironically enough, I don't see a way to edit HTML/CSS in the CloudCannon editor.
+Lastly, I don't see an obvious *market* or *store* for Jekyll themes. I (luckily) stumbled upon the two themes that I'm using now.
