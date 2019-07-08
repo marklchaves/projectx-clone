@@ -148,13 +148,39 @@ I can see all the source HTML I need to see.
 
 <gwmw class="ginger-module-highlighter-mistake-type-1" id="gwmw-15626213623478692073922">itemscope</gwmw> itemtype="http://schema.org/Blog"
 
-This tiny piece of code is small, but it packs a punch in the **SEO** world. WordPress strips out this code every time I've
-
-<gwmw class="ginger-module-highlighter-mistake-type-1" id="gwmw-15626226128662109921312">tred</gwmw> to add it to my site.
+This tiny piece of code is small, but it packs a punch in the **SEO** world. WordPress strips out this code every time I've tried to add it to my site.
 
 <gwmw class="ginger-module-highlighter-mistake-type-1" id="gwmw-15626213643827032383652">Arghhh</gwmw>. With CloudCannon–no worries, mate\! In fact the theme this blog is using has this code already in these pages. Now that's responsible coding\! Happy Days :-)
 
 I'm sure, in the WordPress realm, there's a bloated 500 file plugin that will do this *one tiny little thing* for you.
+
+The ability to add this piece of code to one of my new CloudCannon sites got me dancing on my kitchen table.
+
+{% if <gwmw class="ginger-module-highlighter-mistake-type-3" id="gwmw-15626233975823796220512">page</gwmw><gwmw class="ginger-module-highlighter-mistake-type-3" id="gwmw-15626233975824574899676">.</gwmw>masonry %}
+
+&lt;
+
+<gwmw id="gwmw-15626233744160420581978">script</gwmw> type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"&gt;&lt;/script&gt;
+
+&lt;
+
+<gwmw id="gwmw-15626233750458894272404">script</gwmw> type="text/javascript" src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"&gt;&lt;/script&gt;
+
+&lt;
+
+<gwmw id="gwmw-15626233756496214467403">script</gwmw> type="text/javascript" src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"&gt;&lt;/script&gt;
+
+&lt;
+
+<gwmw id="gwmw-15626233766201790262028">script</gwmw> type="text/javascript"
+
+<gwmw id="gwmw-15626233766201412345310">src</gwmw>\="/assets/js/portfolio-masonry
+
+<gwmw id="gwmw-15626233766207004515801">.</gwmw>
+
+<gwmw id="gwmw-15626233766209488686796">js</gwmw>"&gt;&lt;/script&gt;
+
+{% <gwmw id="gwmw-15626233770104674997534">endif</gwmw> %}
 
 #### Local Development Environment
 
@@ -182,7 +208,7 @@ Here's one thing I discovered by accident–CMD-L brings up a link modal right i
 
 ![](/uploads/cloudcannon-versus-wordpress/cloudcannon-editor-blog-post-link-modal-792.png){: width="792" height="585"}
 
-I think the content editor is the weakest link (so far). Read on below to find out why. Before we toss out the baby with the bathwater–we need to give credit to Jekyll's native document format for blog posts. That's **markdown**.
+I think the content editor is the *weakest* link (so far). Read on below to find out why. Before we toss out the baby with the bathwater–we need to give credit to Jekyll's native document format for blog posts. That's **markdown**.
 
 <gwmw class="ginger-module-highlighter-mistake-type-3" id="gwmw-15626213893480365927658">Markdown</gwmw> is incredibly powerful and extremely fast. It's about as minimal as you can get when it comes to publishing content. I love it. I'm happy to see it and use it again.
 
@@ -207,7 +233,7 @@ Here's a short laundry list of what I don't like about CloudCannon
 
 #### Where Are The Jekyll Theme Marketplaces?
 
-Lastly, I don't see an obvious *market* or *store* for Jekyll themes. I (luckily) stumbled upon the two themes that I'm using now.
+Lastly, I don't see an obvious *market* or *store* for Jekyll themes. I (luckily) stumbled upon the two themes (Barber & Minimal Mistakes) that I'm using now.
 
 #### CSS Sprites
 
