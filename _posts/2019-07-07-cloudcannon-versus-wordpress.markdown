@@ -7,7 +7,7 @@ description: >-
   Coming from a former software engineer who found himself supporting WordPress
   sites since 2015.
 image: /uploads/cloudcannon-versus-wordpress/cloudcannon-wordpress-logos.png
-author: mark l chaves
+author: marklchaves
 tags:
   - Review
   - CloudCannon

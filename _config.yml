@@ -33,14 +33,7 @@ disqus: 4projectx
 #mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 
 # Author settings
-author:
-  - name: mark l chaves
-    bio: i feed the stray dogs and cats of bali.
-    url: https://marklchaves.com
-author:
-  - name: Craig Austin
-    bio: Specialist in alternative photographic processes from smartphone for Phonarnation and Vimpt.
-    url: https://vimpt.com/
+# Moved to _data/authors.yml
 
 # Pagination settings
 pagination:
