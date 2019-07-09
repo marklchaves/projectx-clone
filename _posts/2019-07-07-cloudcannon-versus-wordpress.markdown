@@ -78,7 +78,7 @@ Have fun managing changes with this. Let alone trying to find a **bug**&nbsp;thi
 
 #### Glossed-Over Child Themes
 
-Any experience WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know that child themes exist? Why do WordPress theme companies **deliberately build themes that they know will absolutely break** unless the site owner creates a child theme? That would make too much sense–I mean, that would be the responsible thing to do.
+Any experienced WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know that child themes exist? Why do WordPress theme companies **deliberately build themes that they know will absolutely break** unless the site owner creates a child theme? That would make too much sense–I mean, that would be the responsible thing to do.
 
 ![](/uploads/cloudcannon-versus-wordpress/avada-child-theme-warning-792.png){: width="792" height="323"}
 
@@ -94,7 +94,7 @@ My personal WordPress site is pretty simple. Yet, half of my plugins are devoted
 
 #### Transparency
 
-I can see all the source HTML I need to see. Yay\! I can do stuff that WordPress rejects in its editor. E.g.
+I can see all the source HTML I need to see. Rejoice\! I can do stuff that WordPress rejects in its editor. E.g.
 
 `itemscope itemtype="http://schema.org/Blog"`
 
@@ -144,7 +144,7 @@ Here's a short laundry list of what I don't like about CloudCannon
 
 #### Content Editor
 
-1. The content editor is slow. It takes a few seconds to save a post with no images. The editor seems to hog my CPU. Very similar to how slow Divi is and how Divi chokes my computer resources. I ran some performance tests and discovered that the Divi page builder editor actually takes up less CPU than CloudCannon's content editor. I didn't this that was possible\!
+1. The content editor is slow. It takes a few seconds to save a post with no images. The editor seems to hog my CPU (it kills my Firefox--my *go to* browser). Uncomfortably similar to how Divi (popular WordPress page builder) can choke my computer resources. I ran some performance tests and discovered that the Divi page builder editor actually takes up less CPU than CloudCannon's content editor. I didn't this that was possible\!
 2. I don't see a preview button in the editor. I had to publish my draft to see what it would look like.
 3. I don't see a way to create a draft version of a published post. In WordPress, you can make draft from a published post in one-click.
 4. Ironically enough, I don't see a way to edit HTML/CSS in the CloudCannon editor. You have to get out of the content editor and go into the files directory. Find the blog post markdown file and bring it up in the code editor.
@@ -155,6 +155,6 @@ Lastly, I don't see an obvious *market* or *store* for Jekyll themes. I (luckily
 
 #### CSS Sprites
 
-I would have loved to use a CSS sprite for this blog post. Using CSS sprites reduce server round trips. Unfortunately, that means I needed to write this post in HTML. Therein lies the trade-off. Simple/minimal/markdown versus HTML/CSS/JS. Maybe that's my next homework assignment?
+Ah, I would have really loved to use a CSS sprite for this blog post. Using CSS sprites reduce server round trips. Unfortunately, that means I needed to write this post in HTML. Oh well. You can't always get what you want. And, therein lies the trade-off. Simple/minimal/markdown versus HTML/CSS/JS. Maybe prototyping sprites in CloudCannon is my next homework assignment?
 
 If you found this useful, please share it. [Or even buy me a cuppa joe](https://ko-fi.com/marklchaves#){: target="_blank"}. Hint hint ;-)
