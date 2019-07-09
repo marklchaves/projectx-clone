@@ -108,9 +108,9 @@ This piece of code got me dancing on my kitchen table! In WordPress, trying to i
 
 The four JavaScript files shown above, will get loaded **only** for a page named *masonry*. In a typical WordPress site, these files would get loaded for **every** page whether they are needed or not. Each file costs four server round trips.
 
-Now, imagine you have a WordPress site that has 52 plugins. Each of these plugins requires their own set of say 2-4 JavaScript files. That would cost each of your WordPress pages 52*4 = **208** server calls.
+Now, imagine you have a WordPress site that has 52 plugins. Each of these plugins requires their own set of say 2-4 JavaScript files. That would cost each of your WordPress pages **104 to 208** server calls (52*4 = 208).
 
->What's 208 web server requests among friends? No biggie, eh?
+>What's 208 web server requests for one page among friends? No biggie, eh?
 
 #### Local Development Environment
 
