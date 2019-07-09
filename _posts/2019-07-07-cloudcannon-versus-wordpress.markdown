@@ -55,11 +55,11 @@ I really dislike (hate) having to refresh slow loading page builder editors and 
 
 #### Too Many Moving Parts (Plugin-arrhea)
 
-There are way too many moving parts in a typical WordPress site. These moving parts change all the time. E.g. WordPress versions, **PHP** versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. They don't even know which plugins they really need and most of them are outdated (one hasn't been supported for 6 years--no joke). I'm trying to get it down to high thirties, low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far. Every WordPress developer knows having too many plugins is a **security risk** and performance killer.
+There are way too many moving parts in a typical WordPress site. These moving parts change all the time. E.g. WordPress versions, **PHP** versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. They don't even know which plugins they really need, and most of them are outdated (one hasn't been supported for 6 years--no joke). I'm trying to get it down to high thirties, low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far. Every WordPress developer knows having too many plugins is a **security risk** and performance killer.
 
 #### Uncontrollable Page Bloat
 
-Themes provide little control over what gets loaded on your web pages. More optimised themes give you some control. But, mostly **not** at page-level, i.e., site-wide control only. Page-level granularity is where you really need the control--it's vital for optimising a website.
+Themes provide little control over what gets loaded on your web pages. More optimised themes give you some control. But, this control is generally **not** at the page-level, i.e., site-wide control only. Page-level granularity should be a *hard requirement* for optimising websites.
 
 Standard *general* purpose themes generate way too many *round-trips* to the server (135-156 server requests are common). Obviously, 156 server requests are a ridiculous **waste of resources** for every single page on the site. As a reference, **GTmetrix** (a leading site performance test tool) says **88** requests are the average.
 
@@ -78,7 +78,7 @@ Have fun managing changes with this. Let alone trying to find a **bug**&nbsp;thi
 
 #### Glossed-Over Child Themes
 
-Any experience WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know that child themes exist? Why WordPress theme companies **deliberately build themes that they know will absolutely break** unless the site owner creates a child theme? That would make too much sense–I mean, that would be the responsible thing to do.
+Any experience WordPress developer knows to always create a child theme for the main theme. Child themes are where theme customisations go. Why aren't they just built-in?? Why does a developer or a site owner even have to know that child themes exist? Why do WordPress theme companies **deliberately build themes that they know will absolutely break** unless the site owner creates a child theme? That would make too much sense–I mean, that would be the responsible thing to do.
 
 ![](/uploads/cloudcannon-versus-wordpress/avada-child-theme-warning-792.png){: width="792" height="323"}
 
@@ -86,7 +86,7 @@ So, we're forced to supply our own child themes. But, support for child themes i
 
 #### Optimisation Slavery
 
-My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I'll most likely need a couple more optimisation plugins before the end of this year. And, Google keeps yelling at to put my site on a CDN, if I want a good PageSpeed score. Really? All this for a personal website. Insane\!
+My personal WordPress site is pretty simple. Yet, half of my plugins are devoted to performance tuning. I know I'll need a couple more optimisation plugins before the end of this year. And, Google keeps yelling at me to put my site on a CDN, if I want a good PageSpeed score. Really? All this for a personal website. Insane\!
 
 ![](/uploads/cloudcannon-versus-wordpress/cloudcannon-opengraph-792.jpg){: width="792" height="416"}
 
