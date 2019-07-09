@@ -1,12 +1,9 @@
 ---
 layout: post
-title:
+title: The Vimpt Story
 date: 2019-07-07 12:00:00
-description: >-
-  First impressions from spinning up a couple Jekyll sites on CloudCannon.
-  Coming from a former software engineer who found himself supporting WordPress
-  sites since 2015.
-image: /uploads/cloudcannon-versus-wordpress/cloudcannon-wordpress-logos.png
+description: This is a test post. Blah blah blah.
+image: /uploads/vimpt-hero-medium-artile-792.jpg
 author: marklchaves
 tags:
   - Review
