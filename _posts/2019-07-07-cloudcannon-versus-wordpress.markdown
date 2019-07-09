@@ -7,7 +7,7 @@ description: >-
   Coming from a former software engineer who found himself supporting WordPress
   sites since 2015.
 image: /uploads/cloudcannon-versus-wordpress/cloudcannon-wordpress-logos.png
-author: mark
+author: mark l chaves
 tags:
   - Review
   - CloudCannon
@@ -55,7 +55,7 @@ I really dislike (hate) having to refresh slow loading page builder editors and 
 
 #### Too Many Moving Parts (Plugin-arrhea)
 
-There are way too many moving parts in a typical WordPress site. These moving parts change all the time. E.g. WordPress versions, **PHP** versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. They don't even know which plugins they really need, and most of them are outdated (one hasn't been supported for 6 years--no joke). I'm trying to get it down to high thirties, low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far. Every WordPress developer knows having too many plugins is a **security risk** and performance killer.
+There are way too many moving parts in a typical WordPress site. These moving parts change all the time. E.g. WordPress versions, **PHP** versions, plugin updates, and theme upgrades. Most of my clients install too many plugins. For example, one of my clients has **over 50 plugins**. They don't even know which plugins they really need, and most of them are outdated (one hasn't been supported for 6 years–no joke). I'm trying to get it down to high thirties, low forties (still too high for my liking). Auditing and pruning plugins is not easy. And, that's putting it lightly. It's been a work in progress for weeks and we're not done yet. I've only managed to prune about a dozen so far. Every WordPress developer knows having too many plugins is a **security risk** and performance killer.
 
 #### Uncontrollable Page Bloat
 
@@ -102,15 +102,15 @@ This tiny piece of code is small, but it packs a punch in the **SEO** world. Wor
 
 In the WordPress realm, there's probably a bloated 500 file plugin that will do this tiny little thing for you.
 
-This piece of code got me dancing on my kitchen table! In WordPress, trying to include *JavaScript* only when needed is performing oral surgery. Not so, using Jekyll.
+This piece of code got me dancing on my kitchen table\! In WordPress, trying to include *JavaScript* only when needed is performing oral surgery. Not so, using Jekyll.
 
 ![](/uploads/cloudcannon-versus-wordpress/ruby-code-javascript-includes-wb.png){: width="792"}
 
 The four JavaScript files shown above, will get loaded **only** for a page named *masonry*. In a typical WordPress site, these files would get loaded for **every** page whether they are needed or not. Each file costs four server round trips.
 
-Now, imagine you have a WordPress site that has 52 plugins. Each of these plugins requires their own set of say 2-4 JavaScript files. That would cost each of your WordPress pages **104 to 208** server calls (52*4 = 208).
+Now, imagine you have a WordPress site that has 52 plugins. Each of these plugins requires their own set of say 2-4 JavaScript files. That would cost each of your WordPress pages **104 to 208** server calls (52\*4 = 208).
 
->What's 208 web server requests for one page among friends? No biggie, eh?
+> What's 208 web server requests for one page among friends? No biggie, eh?
 
 #### Local Development Environment
 
@@ -144,7 +144,7 @@ Here's a short laundry list of what I don't like about CloudCannon
 
 #### Content Editor
 
-1. The content editor is slow. It takes a few seconds to save a post with no images. The editor seems to hog my CPU (it kills my Firefox--my *go to* browser). Uncomfortably similar to how Divi (popular WordPress page builder) can choke my computer resources. I ran some performance tests and discovered that the Divi page builder editor actually takes up less CPU than CloudCannon's content editor. I didn't this that was possible\!
+1. The content editor is slow. It takes a few seconds to save a post with no images. The editor seems to hog my CPU (it kills my Firefox–my *go to* browser). Uncomfortably similar to how Divi (popular WordPress page builder) can choke my computer resources. I ran some performance tests and discovered that the Divi page builder editor actually takes up less CPU than CloudCannon's content editor. I didn't this that was possible\!
 2. I don't see a preview button in the editor. I had to publish my draft to see what it would look like.
 3. I don't see a way to create a draft version of a published post. In WordPress, you can make draft from a published post in one-click.
 4. Ironically enough, I don't see a way to edit HTML/CSS in the CloudCannon editor. You have to get out of the content editor and go into the files directory. Find the blog post markdown file and bring it up in the code editor.
