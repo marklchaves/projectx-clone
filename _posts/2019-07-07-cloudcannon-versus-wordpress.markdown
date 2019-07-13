@@ -102,7 +102,7 @@ This tiny piece of code is small, but it packs a punch in the **SEO** world. Wor
 
 In the WordPress realm, there's probably a bloated 500 file plugin that will do this tiny little thing for you.
 
-This piece of code got me dancing on my kitchen table\! In WordPress, trying to include *JavaScript* only when needed is performing oral surgery. Not so, using Jekyll.
+This piece of code below, got me *dancing* on my kitchen table\! In WordPress, trying to include *JavaScript* only when needed is performing oral surgery. Not so, using Jekyll. In Jekyll, a simple `if` statement in a custom includes file does the trick, and it's party time.
 
 ![](/uploads/cloudcannon-versus-wordpress/ruby-code-javascript-includes-wb.png){: width="792"}
 
