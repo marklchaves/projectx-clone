@@ -159,4 +159,4 @@ Ah, I would have really loved to use a CSS sprite for this blog post. Using CSS 
 
 If you found this useful, please share it. [Or even buy me a cuppa joe](https://ko-fi.com/marklchaves#){: target="_blank"}. Hint hint ;-)
 
-**P.s.** This review was 100% written in *markdown* using the *Visual Studio Code* editor and originally pubslished on my prorotype CloudCannon site. No worrying about slow loading, feature heavy, and clunky *Gutenberg* site builders. With Jekyll and CloudCannon, gone are the days of having a minimum of three page builders installed just for one site. Liberation at last!
+**P.s.** This review was 100% written in *markdown* using the *Visual Studio Code* editor and originally pubslished on my prorotype CloudCannon site. There was no worrying about slow loading, feature heavy, and clunky *Gutenberg* site builders during the making of this piece. With Jekyll and CloudCannon, gone are the days of having a minimum of three page builders installed just for one site. Liberation at last!
