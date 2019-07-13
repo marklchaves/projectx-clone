@@ -158,3 +158,5 @@ Lastly, I don't see an obvious *market* or *store* for Jekyll themes. I (luckily
 Ah, I would have really loved to use a CSS sprite for this blog post. Using CSS sprites reduce server round trips. Unfortunately, that means I needed to write this post in HTML. Oh well. You can't always get what you want. And, therein lies the trade-off. Simple/minimal/markdown versus HTML/CSS/JS. Maybe prototyping sprites in CloudCannon is my next homework assignment?
 
 If you found this useful, please share it. [Or even buy me a cuppa joe](https://ko-fi.com/marklchaves#){: target="_blank"}. Hint hint ;-)
+
+**P.s.*** This articles was 100% written in *markdown* using the *Visual Studio Code* editor and originally pubslished on my prorotype CloudCannon site. No worrying about slow loading, heavily feature rich, or clunky *Gutenberg* site builder editors. Gone are the days of having at least three page builders installed just for one (WordPress) site:  Freedom at last!
