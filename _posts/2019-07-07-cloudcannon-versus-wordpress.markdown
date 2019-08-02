@@ -102,11 +102,11 @@ This tiny piece of code is small, but it packs a punch in the **SEO** world. Wor
 
 In the WordPress realm, there's probably a bloated 500 file plugin that will do this tiny little thing for you.
 
-This piece of code got me dancing on my kitchen table\! In WordPress, trying to include *JavaScript* only when needed is performing oral surgery. Not so, using Jekyll.
+This piece of code below, got me *dancing* on my kitchen table\! In WordPress, trying to include *JavaScript* only when needed is performing oral surgery. Not so, using Jekyll. In Jekyll, a simple `if` statement in a custom includes file does the trick, and it's party time.
 
 ![](/uploads/cloudcannon-versus-wordpress/ruby-code-javascript-includes-wb.png){: width="792"}
 
-The four JavaScript files shown above, will get loaded **only** for a page named *masonry*. In a typical WordPress site, these files would get loaded for **every** page whether they are needed or not. Each file costs four server round trips.
+The four JavaScript files shown above, will get loaded **only** for a page named *masonry*. In a typical WordPress site, these files would get painfully loaded for **every** page whether they are needed or not. It gets worse. Each file has to be fetched from a remote server. That means the browser and server will talk back and forth four times to get these files loaded. Wait. There's more. For each of these JavaScript files, the web server has to ask a remote server to send the file over the net. Wow!
 
 Now, imagine you have a WordPress site that has 52 plugins. Each of these plugins requires their own set of say 2-4 JavaScript files. That would cost each of your WordPress pages **104 to 208** server calls (52\*4 = 208).
 
@@ -158,3 +158,5 @@ Lastly, I don't see an obvious *market* or *store* for Jekyll themes. I (luckily
 Ah, I would have really loved to use a CSS sprite for this blog post. Using CSS sprites reduce server round trips. Unfortunately, that means I needed to write this post in HTML. Oh well. You can't always get what you want. And, therein lies the trade-off. Simple/minimal/markdown versus HTML/CSS/JS. Maybe prototyping sprites in CloudCannon is my next homework assignment?
 
 If you found this useful, please share it. [Or even buy me a cuppa joe](https://ko-fi.com/marklchaves#){: target="_blank"}. Hint hint ;-)
+
+**P.s.** This review was 100% written in *markdown* mainly using the *Visual Studio Code* editor on my Mac. And, originally published on my prototype CloudCannon site. There was no worrying about slow loading, feature heavy, and clunky *Gutenberg* site builders during the making of this piece. With Jekyll and CloudCannon, gone are the days of having a minimum of three page builders installed just for one site. Liberation at last!
