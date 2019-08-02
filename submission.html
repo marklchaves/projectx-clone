@@ -9,86 +9,63 @@ image:
     </div>
 </section>
 
-<div class="container">
+<section>
 
-    <div class="row">
+    <div class="contact__form section-padding--half">
+        <div class="grid-xlarge">
 
-        <form class="needs-validation"
-            action="https://getsimpleform.com/messages?form_api_token=75f6cfc3eeff4cc7711fb7fa081946b5" method="post"
-            novalidate>
             <!-- the redirect_to is optional, the form will redirect to the referrer on submission 
     <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' /> -->
 
-            <!-- all your input fields here.... 
-    <input type='text' name='test' />
-    <input type='submit' value='Send' /> -->
 
-            <div class="col-md-8 order-md-1">
-
-                <div class="row">
-
-                    <div class="col-md-6 mb-3">
-                        <label for="firstName">First Name</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
-                        <div class="invalid-feedback">
-                            A first name is required.
-                        </div>
+            <form id="form" class="form"
+                action="https://getsimpleform.com/messages?form_api_token=75f6cfc3eeff4cc7711fb7fa081946b5"
+                method="POST">
+                <div class="form__subcontainer">
+                    <div>
+                        <label for="form-first-name">First Name</label>
+                        <input type="text" name="first-name" id="form-first-name" required>
                     </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
-                        <div class="invalid-feedback">
-                            Please enter a valid email address.
-                        </div>
-                    </div>
-
-                </div> <!-- row -->
-
-                <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <label for="projectName">Project Name</label>
-                        <input type="text" class="form-control" id="projectName" placeholder="" value="" required>
-                        <div class="invalid-feedback">
-                            A project name is required.
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="projectLink">Project Link</label>
-                        <input type="url" class="form-control" id="projectLink" placeholder="https://yourproject.com"
+                    <div>
+                        <label for="form-email">E-Mail</label>
+                        <input type="email" name="email" id="form-email" placeholder="youremail@yourdomain.com"
                             required>
-                        <div class="invalid-feedback">
-                            Please enter a valid link.
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12 mb-3">
-                        <label for="projectStatement">Project Statement</label>
-                        <textarea rows="4" class="form-control" id="projectStatement" placeholder="" value=""
-                            required></textarea>
-                        <div class="invalid-feedback">
-                            A project statement is required.
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 mb-3">
-                        <label for="contributorBio">About You</label>
-                        <textarea rows="4" class="form-control" id="contributorBio" placeholder="" required></textarea>
-                        <div class="invalid-feedback">
-                            A short bio is required.
-                        </div>
                     </div>
                 </div>
 
-                <hr class="mb-4">
-                <button class="btn btn-primary btn-lg btn-block" type="submit">Send</button>
-                <hr class="mb-4">
+                <div class="form__subcontainer">
+                    <div>
+                        <label for="form-project-name">Project Name</label>
+                        <input type="text" name="project-name" id="form-project-name" required>
 
-        </form>
+                    </div>
+                    <div>
+                        <label for="form-project-link">Project Link</label>
+                        <input type="url" name="project-link" id="form-project-link"
+                            placeholder="https://yourprojectlink.com" required>
 
-    </div> <!-- row -->
+                    </div>
+                </div>
 
-</div> <!-- container -->
+                <div>
+                    <label for="form-project-statement">Project Statement</label>
+                    <textarea name="project-statement" id="form-project-statement" rows="4" required></textarea>
+                </div>
+
+                <div>
+                    <label for="form-contributor-bio">About You</label>
+                    <textarea name="contributor-bio" id="form-contributor-bio" rows="4" required></textarea>
+                </div>
+
+
+                <div class="form__submit">
+                    <div class="form__btn">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+
+                <p class="form__message"></p>
+            </form>
+        </div>
+    </div>
+</section>
