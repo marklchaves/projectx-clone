@@ -12,7 +12,7 @@ image:
 <div class="container">
 
     <div class="row">
-        
+
         <form class="needs-validation"
             action="https://getsimpleform.com/messages?form_api_token=75f6cfc3eeff4cc7711fb7fa081946b5" method="post"
             novalidate>
@@ -26,22 +26,66 @@ image:
             <div class="col-md-8 order-md-1">
 
                 <div class="row">
+
                     <div class="col-md-6 mb-3">
-                        <label for="firstName">First name</label>
+                        <label for="firstName">First Name</label>
                         <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
                         <div class="invalid-feedback">
-                            Valid first name is required.
+                            A first name is required.
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="email">Email</label>
                         <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
                         <div class="invalid-feedback">
-                            Please enter a valid email address for shipping updates.
+                            Please enter a valid email address.
                         </div>
                     </div>
 
                 </div> <!-- row -->
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="projectName">Project Name</label>
+                        <input type="text" class="form-control" id="projectName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            A project name is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="projectLink">Project Link</label>
+                        <input type="url" class="form-control" id="projectLink" placeholder="https://yourproject.com"
+                            required>
+                        <div class="invalid-feedback">
+                            Please enter a valid link.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <label for="projectStatement">Project Statement</label>
+                        <textarea rows="4" class="form-control" id="projectStatement" placeholder="" value=""
+                            required></textarea>
+                        <div class="invalid-feedback">
+                            A project statement is required.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <label for="contributorBio">About You</label>
+                        <textarea rows="4" class="form-control" id="contributorBio" placeholder="" required></textarea>
+                        <div class="invalid-feedback">
+                            A short bio is required.
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="mb-4">
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Send</button>
+                <hr class="mb-4">
 
         </form>
 
