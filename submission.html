@@ -1,0 +1,50 @@
+---
+layout: default
+title: Submission
+image:
+---
+<section class="mast section-padding--double">
+    <div class="grid-small">
+        <h2>Share Something With Us</h2>
+    </div>
+</section>
+
+<div class="container">
+
+    <div class="row">
+        
+        <form class="needs-validation"
+            action="https://getsimpleform.com/messages?form_api_token=75f6cfc3eeff4cc7711fb7fa081946b5" method="post"
+            novalidate>
+            <!-- the redirect_to is optional, the form will redirect to the referrer on submission 
+    <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' /> -->
+
+            <!-- all your input fields here.... 
+    <input type='text' name='test' />
+    <input type='submit' value='Send' /> -->
+
+            <div class="col-md-8 order-md-1">
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                        </div>
+                    </div>
+
+                </div> <!-- row -->
+
+        </form>
+
+    </div> <!-- row -->
+
+</div> <!-- container -->
