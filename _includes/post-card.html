@@ -2,8 +2,15 @@
   <a class="posts__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
     {% if post.image %}
       <figure class="posts__img">
-        <!-- <img src="{{ post.image }}" alt="{{ post.title }}" data-aos="fade-in" itemprop="image"/> -->
-        {% image_tag src=post.image width="627" %}
+          {% assign path = post.image | remove_first: '/'  %}
+          {% assign alt = post.title %}
+          {% responsive_image_block %}
+            path: {{ path }}
+            alt: {{ alt }}
+            {% if title %}
+            title: {{ title }}
+            {% endif %}
+          {% endresponsive_image_block %}
       </figure>
     {% endif %}
     <div>
