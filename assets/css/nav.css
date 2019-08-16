@@ -1,0 +1,15 @@
+/* Squish nav area for extra small devices. */
+@media only screen and (max-width: 374px) {
+    .nav-primary {
+        float: right;
+        width: 70%; /* Squishing factor. */
+        text-align: left;
+        margin: 1em 0;
+    }
+    .nav-primary li {
+        display: inline-block;
+    }
+    .header {
+        height: 5em; /* Boost header vert a tad. */
+    }
+}
