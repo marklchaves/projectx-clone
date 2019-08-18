@@ -9,7 +9,7 @@
       </div>
     </div>
 
-    <hr class="sep--white"/>
+    <hr class="sep--white" />
 
     <div class="footer__container">
       {% tags_list :threshold => 1, :sort_by => count, :order_by => desc, :limit => 5 %}
@@ -22,9 +22,28 @@
 {% include contact.html %}
 
 {% if paginator.next_page %}
-  <script>
-    var maxPages = parseInt('{{ paginator.total_pages }}');
-  </script>
+<script>
+  var maxPages = parseInt('{{ paginator.total_pages }}');
+</script>
 {% endif %}
 
 <script src="{{ '/assets/js/app.min.js' | prepend: site.baseurl }}"></script>
+
+<script id="rendered-js">
+  function mobilemenutoggle() {
+    $("#mobile-menu").toggleClass('open');
+  }
+  function displayMobileMenu() {
+    $('#mobile-menu ul').hide();
+    if ($(window).width() < 767) {
+      if (!($("#mobile-menu-toggler").length > 0)) {
+        var mobilemenuheight = $('#mobile-menu').height();
+        var toggler = "<a id='mobile-menu-toggler' onclick='mobilemenutoggle();' style='height: " + mobilemenuheight + "px; line-height: " + (mobilemenuheight - 1) + "px;'><span class='mobile-menu-text open'></span><span class='mobile-menu-text'>MENU</span><span class='mobile-menu-icon'></span></a>";
+        $("#mobile-menu").prepend(toggler);
+      }
+    }
+    $('#mobile-menu ul').attr('style', '')
+  }
+  $(window).resize(displayMobileMenu());
+  $(window).resize();
+</script>
