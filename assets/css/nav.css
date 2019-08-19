@@ -1,29 +1,10 @@
-.nav-primary {
-    float: left;
-    width: 70%;
-    text-align: left;
-    margin: 1em 0;
-}
-
-.header {
-    height: 5em;
-}
-
-@media only screen and (min-width: 768px) {
-    .nav-primary {
-        float: right;
-        width: 50%;
-    }
-    .nav-primary li {
-        display: inline-block;
-    }
-    .header {
-        height: 2em;
-    }
-}
 
 #mobile-menu {
     overflow: hidden;
+    position: absolute; /* Positioning for hamburger closed and open. */
+    top: 25%;
+    right: 10%;
+    background: white; /* So the list of menu items can be read if they overlap main body content. */
 }
 
 #mobile-menu ul {
@@ -33,14 +14,11 @@
 #mobile-menu li {
     font-size: 13px;
     display: inline-block;
-    float: right;
     vertical-align: top;
-    padding-left: 10%;
 }
 
 #mobile-menu-toggler {
     display: none;
-    float: right;
     text-decoration: none;
     cursor: pointer;
     font-size: 12px;
@@ -129,16 +107,11 @@
     display: initial;
 }
 
-.navbar-header {
-    float: left !important;
-}
-
 @media screen and (max-width: 767px) {
     #mobile-menu-toggler {
         display: block;
     }
     #mobile-menu ul {
-        clear: left;
         display: none;
     }
     #mobile-menu.open ul {
