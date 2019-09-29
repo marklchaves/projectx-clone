@@ -4,12 +4,13 @@
     function initMap() {
         var myOptions = {
             scrollwheel: false,
-            draggable: false,
+            draggable: true,
             panControl: false,
             disableDefaultUI: true,
             zoom: window.mapData.zoom,
-            maxZoom: window.mapData.zoom,
+            maxZoom: 16,
             minZoom: window.mapData.zoom,
+            zoomControl: true,
             center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
