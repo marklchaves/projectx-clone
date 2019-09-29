@@ -1,0 +1,12 @@
+---
+layout: page
+title: Drop Map
+lat: -8.4960683
+long: 115.2485298
+zoom: 5
+---
+<h1>Google Maps Drop Location</h1>
+<!--The div element for the map -->
+<div id="map">
+    {% include google-maps.html latitude=page.lat longitude=page.long zoom=page.zoom %}
+</div>
