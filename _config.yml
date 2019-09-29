@@ -35,6 +35,9 @@ disqus: 4projectx
 # Author settings
 # Moved to _data/authors.yml
 
+# Map settings
+google_maps_javascript_api_key: "AIzaSyCp4Olui9agnrGraMVWQnKUugyyXJG3RPI"
+
 # Pagination settings
 pagination:
   enabled: true
