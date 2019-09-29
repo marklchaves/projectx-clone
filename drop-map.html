@@ -1,12 +1,20 @@
 ---
 layout: page
 title: Drop Map
-lat: -8.4960683
-long: 115.2485298
-zoom: 5
+lat: -8.5073473
+long: 115.26619
+zoom: 11
 ---
 <h1>Google Maps Drop Location</h1>
+<hr>
 <!--The div element for the map -->
+<h2>This Map Takes a Lat/Long</h2>
 <div id="map">
     {% include google-maps.html latitude=page.lat longitude=page.long zoom=page.zoom %}
+</div>
+<h2>Preferred: This Map uses a Precise Location of a Place Defined in Google Maps (HTML Embed)</h2>
+<div id="map">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1847.2270040904252!2d115.2661900122374!3d-8.50734732626855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8d39add619dd5946!2sAnomali%20Coffee%20Ubud!5e0!3m2!1sen!2sid!4v1569753654966!5m2!1sen!2sid"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 </div>
