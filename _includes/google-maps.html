@@ -1,0 +1,31 @@
+<script>
+    window.mapData = { "latitude": {{ include.latitude }}, "longitude": {{ include.longitude }}, "zoom": {{ include.zoom }} };
+
+    function initMap() {
+        var myOptions = {
+            scrollwheel: false,
+            draggable: true,
+            panControl: false,
+            disableDefaultUI: true,
+            zoom: window.mapData.zoom,
+            maxZoom: 16,
+            minZoom: window.mapData.zoom,
+            zoomControl: true,
+            center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById('lat-long-map'), myOptions);
+
+        var marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
+        });
+
+        google.maps.event.addDomListener(window, 'resize', function () {
+            map.setCenter(myOptions.center);
+        });
+    }
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
