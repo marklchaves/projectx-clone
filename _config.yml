@@ -1,5 +1,5 @@
 # Site/SEO settings
-email: okay@samesies.io
+email: admin@projectx.is
 baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics: 
@@ -8,7 +8,7 @@ name: x
 title: p r o j e c t x
 description: >
   x
-url: https://chosen-dunlin.cloudvent.net/
+url: https://projectx.is/
 twitter_username: marklchaves
 default_img: /assets/images/seo.jpg
 social:
