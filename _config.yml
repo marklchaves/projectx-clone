@@ -23,7 +23,14 @@ social:
 
 # Contact settings
 contact_img: /assets/images/placeholder-28.jpg
-formcarry: https://formcarry.com/s/PPuih6Lwj5u
+formcarry: https://formcarry.com/s/dk-s_YAU0WZ
+
+# Formspree contact form integration not working at the moment. 
+# Reverting to default Formcarry
+# contact_form_action: https://formspree.io/mnqadrkp
+
+# Submission settings
+share_something_form_action: https://formspree.io/xgewkqae
 
 # Disqus settings
 disqus: 4projectx
