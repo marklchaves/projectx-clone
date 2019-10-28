@@ -4,22 +4,27 @@ Projectx is a space for artists, photographers, architects, designers etc, which
 
 So instead of constantly uploading streams of work, every hour - every day, there will be a 20 minute window, once a week to upload work (hence timer). To be selected then published on our website.
 
-## What is this Site Built on?
+* * * * *
 
-ProjectX is powered by a static site platform named Jekyll, hosted on CloudCannon, and running the Barber theme.
-Other Nifty Apps & Services
+What is this Site Built on?
+---------------------------
 
-    Disqus for moderated commenting.
-    Formcarry for the contact form.
-    Formspree for the submissions form.
-    GitHub for revision control and deployments.
-    TimeAndDate.com for the countdown timer.
+ProjectX is powered by a *static* site platform named [Jekyll](https://jekyllrb.com/), hosted on CloudCannon, and running the [Barber](https://github.com/samesies/barber-jekyll) theme.
 
-## Contributing
+### Other Nifty Apps & Services
 
-If you are interested in contributing to ProjectX, please share something with us and visit the theme style guide. Read more about blogging using CloudCannon here.
-[Barber on GitHub](https://github.com/samesies/barber-jekyll).
+-   [Disqus](https://disqus.com) for moderated commenting.
+-   [Formcarry](https://formcarry.com) for the contact form.
+-   [Formspree](https://formspree.io) for the submissions form.
+-   [GitHub](https://github.com/Projectx-hub/projectx) for revision control and deployments.
+-   [TimeAndDate.com](https://www.timeanddate.com/countdown/create) for the countdown timer.
 
+* * * * *
+
+Contributing
+------------
+
+If you are interested in contributing to ProjectX, please [share something](/submission) with us and visit the [theme style guide](/style-guide). Read more about [blogging using CloudCannon here](https://docs.cloudcannon.com/editing/workflows/blogging/).
 
 ## Contact
-Give us a shout &smp; say hi <admin@projectx.is>.
+Give us a shout &amp; say hi <admin@projectx.is>.
