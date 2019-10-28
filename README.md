@@ -24,7 +24,7 @@ ProjectX is powered by a *static* site platform named [Jekyll](https://jekyllrb.
 Contributing
 ------------
 
-If you are interested in contributing to ProjectX, please [share something](/submission) with us and visit the [theme style guide](/style-guide). Read more about [blogging using CloudCannon here](https://docs.cloudcannon.com/editing/workflows/blogging/).
+If you are interested in contributing to ProjectX, please [share something](/submission) with us and visit the [theme style guide](/style-guide). Read more about [blogging using CloudCannon](https://docs.cloudcannon.com/editing/workflows/blogging/).
 
 ## Contact
 Give us a shout &amp; say hi <admin@projectx.is>.
