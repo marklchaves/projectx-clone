@@ -13,11 +13,11 @@ twitter_username: marklchaves
 default_img: /assets/images/seo.jpg
 social:
   - name: twitter
-    url: https://twitter.com/marklchaves
+    url: https://twitter.com/_vimpt
   - name: instagram
-    url: https://www.instagram.com/marklchaves
+    url: https://www.instagram.com/Vimpt
   - name: github
-    url: https://github.com/marklchaves
+    url: https://github.com/Projectx-hub/projectx
   - name: codepen
     url: https://codepen.io/marklchaves
 
@@ -33,7 +33,7 @@ formcarry: https://formcarry.com/s/dk-s_YAU0WZ
 share_something_form_action: https://formspree.io/xgewkqae
 
 # Disqus settings
-disqus: 4projectx
+disqus: projectxis
 
 # MailChimp settings
 #mailchimp_action: https://samesies.us17.list-manage.com/subscribe/post-json?u=66ddf555dab480e6a8606430b&amp;id=89b3ee034f
