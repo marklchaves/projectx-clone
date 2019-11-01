@@ -25,6 +25,10 @@ social:
 contact_img: /assets/images/placeholder-28.jpg
 formcarry: https://formcarry.com/s/dk-s_YAU0WZ
 
+# Visual editor
+_editor:
+  default_path: /about/
+
 # Formspree contact form integration not working at the moment. 
 # Reverting to default Formcarry
 # contact_form_action: https://formspree.io/mnqadrkp
