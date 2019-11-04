@@ -7,6 +7,12 @@
   font-weight: 700;
 }
 
+%font-header-lt {
+  @extend %letter-spacing-lt;
+
+  font-weight: normal;
+}
+
 //----------------------------------------------
 // Font Size
 //----------------------------------------------
@@ -23,6 +29,10 @@
 //----------------------------------------------
 %letter-spacing {
   letter-spacing: 0.01em;
+}
+
+%letter-spacing-lt {
+  letter-spacing: 0.05em;
 }
 
 //----------------------------------------------

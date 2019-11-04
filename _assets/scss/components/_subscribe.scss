@@ -11,7 +11,7 @@
   }
 
   &__title {
-    @extend %font-header;
+    @extend %font-header-lt;
     @extend %text-center;
 
     display: block;
