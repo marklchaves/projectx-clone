@@ -1,0 +1,11 @@
+---
+layout: page
+title: Knowledge Base
+---
+{% for article in site.knowledgebase %}
+
+<p>
+<a href="{{ article.url }}">{{ article.title }}</a>
+</p>
+
+{% endfor %}
