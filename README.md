@@ -4,6 +4,8 @@ Projectx is a space for artists, photographers, architects, designers etc, which
 
 So instead of constantly uploading streams of work, every hour - every day, there will be a 20 minute window, once a week to upload work (hence timer). To be selected then published on our website.
 
+[ProjectX.is](https://projectx.is)
+
 * * * * *
 
 What is this Site Built on?
