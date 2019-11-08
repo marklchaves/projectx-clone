@@ -24,11 +24,7 @@ ProjectX is powered by a *static* site platform named [Jekyll](https://jekyllrb.
 Quick Tour
 ----------
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qdbCwHUmMW0" 
-frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-
-<p style="background: black; color: white;">Best viewed in full-screen mode.</p>
+[Watch the video.](https://youtu.be/hlYyYpw8H7w)
 
 * * * * *
 
