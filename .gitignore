@@ -1,3 +1,4 @@
+*.code-workspace
 .env
 .DS_Store
 .s3-website.json
