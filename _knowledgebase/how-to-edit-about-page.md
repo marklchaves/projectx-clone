@@ -1,5 +1,6 @@
 ---
 layout: page
+collection: knowledgebase
 title: "How-to Edit ProjectX's About Page"
 date: 2019-11-08
 description: "How-to access CloudCannon's visual editor to edit ProjectX's About page (standalone page)."
@@ -8,7 +9,7 @@ author: marklchaves
 ## Steps
 
 1. [Log into CloudCannon.](https://app.cloudcannon.com)
-2. Navigate to the ProjectX website from the Projects or Sites dashboard from the left menu bar.
+2. Navigate to the **ProjectX** website from the _Projects_ or _Sites_ dashboard from the left menu bar.
 3. From **Projects > ProjectX Live > Sites > ProjectX on master**
 4. From **Sites > ProjectX on master**
 5. Click on **Explore**. You'll land on **Pages > Standalone** by default.
