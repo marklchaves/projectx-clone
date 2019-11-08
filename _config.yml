@@ -54,6 +54,11 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+# Icons
+icons_path: /assets/images/icons/
+help_icon: question-solid.svg
+new_window_icon: new-window-icon-25w.png
+
 # Pagination settings
 pagination:
   enabled: true
