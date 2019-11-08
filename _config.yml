@@ -49,6 +49,11 @@ disqus: projectxis
 # Map settings
 google_maps_javascript_api_key: "AIzaSyCp4Olui9agnrGraMVWQnKUugyyXJG3RPI"
 
+collections:
+  help:
+    output: true
+    permalink: /:collection/:path/
+
 # Pagination settings
 pagination:
   enabled: true
