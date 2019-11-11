@@ -13,12 +13,12 @@ The theme that ProjectX was built on (Barber) used **Formcarry** by default for 
 
 **Formspree's** free plan offers unlimited free forms up to 50 submissions/month. So, **Formspree** will be our long-term forms solution.
 
-**Formcarry** is a temporary solution. We haven't changed it yet because the work is a bit out-of-scope at this time. Therefore, the **Formspree** account is under my name. Again, this _should_ be temporary.
+**Formcarry** is a temporary solution. We haven't changed it yet because the work is a bit out-of-scope at this time. Nevertheless, the **Formspree** account is under admin@projectx.is.
 
 ---
 
 ## Steps
 
 1. [Log into Formcarry.](https://formcarry.com/login)
-2. Navigate to the **My Forms** page. If you don't land on this page after logging in, click on my Avatar on the upper right and select **My Forms**. Or, [use this URL](https://formcarry.com/profile/my-forms).
-3. Click on [projectx contact](https://formcarry.com/profile/form/PPuih6Lwj5u/submissions).
+2. Navigate to the **My Forms** page. If you don't land on this page after logging in, click on ProjectX Avatar on the upper right and select **My Forms**. Or, [use this URL](https://formcarry.com/profile/my-forms).
+3. Click on [Contact](https://formcarry.com/profile/form/dk-s_YAU0WZ/submissions).
