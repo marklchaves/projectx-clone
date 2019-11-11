@@ -1,9 +1,10 @@
 ---
 layout: kb
 collection: kb
-title: "How-to Check Contact Form Submissions"
+type: "how-to"
+title: "Checking Contact Form Submissions"
 date: 2019-11-11
-description: "How-to check contact form submissions hosted on Formcarry."
+description: "How-to guide for checking contact form submissions hosted on Formcarry."
 author: marklchaves
 ---
 ## Introduction
