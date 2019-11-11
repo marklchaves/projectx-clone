@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<section class="post">
+  <div>
+    <div class="post__header section-padding--double">
+      <div class="grid-small">
+        <h1>{{ page.title }}</h1>
+
+        <time
+          class="post__date"
+          datetime="{{ page.date | date_to_xmlschema }}"
+          itemprop="datePublished"
+          >{{ page.date | date: "%-d %b %Y" }}</time
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="post__content section-padding">
+    <div class="grid">
+      <div id="markdown">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+  <!-- Everything inside the #author tags pulls data from the author -->
+  <!-- Look the author details up from the site config. -->
+  {% assign author = site.data.authors[page.author] %}
+
+  <!-- Output author details if some exist. -->
+  {% if author %}
+
+  <div class="section-padding--none">
+    <div class="grid">
+      <hr class="sep" />
+    </div>
+  </div>
+
+  <div class="section-padding">
+    <div class="grid-small">
+      <span class="post__author"
+        >Posted by
+        <a
+          href="{{ author.url }}"
+          title="More By {{ author.name }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          >{{ author.name }}
+          <img src="{{ site.icons_path }}{{ site.new_window_icon }}"/></a
+      ></span>
+      <p class="post__bio">{{ author.bio }}</p>
+    </div>
+  </div>
+  {% endif %}
+</section>
