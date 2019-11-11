@@ -2,10 +2,20 @@
 layout: page
 title: Knowledge Base
 ---
-{% for article in site.kb %}
+<h2>General</h2>
+<p><a href="/help">Site Tour</a></p>
+<p><a href="/style-guide">Theme Style Guide</a></p>
 
-<p>
-<a href="{{ article.url }}">{{ article.title }}</a>
-</p>
+<hr>
+
+{% assign howtos = site.kb | where: "type", "how-to" %}
+
+{% if howtos %}
+<h2>How-tos</h2>
+{% endif %}
+
+{% for article in howtos %}
+
+<p><a href="{{ article.url }}">{{ article.title }}</a></p>
 
 {% endfor %}

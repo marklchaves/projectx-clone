@@ -1,9 +1,10 @@
 ---
 layout: kb
 collection: kb
-title: "How-to Edit ProjectX's About Page"
+type: how-to
+title: "Editing ProjectX's About Page"
 date: 2019-11-08
-description: "How-to access CloudCannon's visual editor to edit ProjectX's About page (standalone page)."
+description: "How-to guide for accessing CloudCannon's visual editor to edit ProjectX's About page (standalone page)."
 author: marklchaves
 ---
 ## Steps
