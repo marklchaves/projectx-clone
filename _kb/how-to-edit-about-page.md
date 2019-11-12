@@ -25,4 +25,4 @@ author: marklchaves
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hlYyYpw8H7w" frameborder="0" allowfullscreen></iframe>
 
-[Watch on YouTube](https://youtu.be/hlYyYpw8H7w "How-to Edit ProjectX's About Page Screencast")
+[Watch on YouTube](https://youtu.be/hlYyYpw8H7w "Editing ProjectX's About Page Screencast")
