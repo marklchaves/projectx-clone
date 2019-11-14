@@ -1,6 +1,9 @@
 a:visited {
   color: black;
 }
+.footer__social a:visited {
+  color: white;
+}
 .fancy-underline {
   color: #000;
   border-bottom: 2px solid #bbb;
