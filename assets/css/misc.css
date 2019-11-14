@@ -1,0 +1,9 @@
+a:visited {
+  color: black;
+}
+.fancy-underline {
+  color: #000;
+  border-bottom: 2px solid #bbb;
+  -webkit-box-shadow: inset 0 -3px 0 #bbb;
+  box-shadow: inset 0 -3px 0 #bbb;
+}
