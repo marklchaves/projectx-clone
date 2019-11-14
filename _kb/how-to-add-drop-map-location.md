@@ -36,4 +36,4 @@ author: marklchaves
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NkI6kBczZM0" frameborder="0" allowfullscreen></iframe>
 
-[Watch on YouTube](https://youtu.be/hlYyYpw8H7w "Adding a New Drop Map Location Screencast")
+[Watch on YouTube](https://youtu.be/NkI6kBczZM0 "Adding a New Drop Map Location Screencast")
