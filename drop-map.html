@@ -6,14 +6,24 @@ locations:
     url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.776395427669!2d115.16706761487609!3d-8.712771691220956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2477a802be21f%3A0x3a77bd0bca6be16a!2sWarung%20Kubu!5e0!3m2!1sen!2sid!4v1573553157177!5m2!1sen!2sid
   - name: Anomali Coffee
     url: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.9094148316053!2d115.26301701488822!3d-8.508176193883186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2222ce4309925%3A0x8d39add619dd5946!2sAnomali%20Coffee%20Ubud!5e0!3m2!1sen!2sid!4v1573810151900!5m2!1sen!2sid
+  - name: 
+    url:
+  - name:
+    url:
+  - name:
+    url:
 ---
 <h1>Google Maps Drop Location</h1>
 <hr class="drop-hr">
 {% for location in page.locations %}
-<div id="place-map" class="google-maps">
+  {% if location.url %}
+ <div id="place-map" class="google-maps">
   <h2>{{ location.name }}</h2>
   <iframe src="{{ location.url }}"
     width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
   </iframe>
 </div>
+  {% else %}
+    {% break %}
+  {% endif %}
 {% endfor %}
