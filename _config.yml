@@ -4,10 +4,10 @@ baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
-name: x
-title: p r o j e c t x
+name: Art Space
+title: P r o j e c t X
 description: >
-  x
+  ProjectX is a space for artists, photographers, architects, designers etc, which will hopefully be the antithesis of the social media platforms. 
 url: https://projectx.is
 twitter_username: craigaustinFRSA
 default_img: /assets/images/projectx-favicon.png
