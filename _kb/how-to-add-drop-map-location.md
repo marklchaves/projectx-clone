@@ -7,6 +7,8 @@ date: 2019-11-12
 description: "How-to guide for accessing CloudCannon's visual editor to add a Google Maps location to the Drop Map page (standalone page)."
 author: marklchaves
 ---
+As of 15 November 2019, up to five map locations can be entered.
+
 ## Steps
 
 ### Find the Drop Locations Name and URL Fields
