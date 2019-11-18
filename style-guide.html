@@ -1,7 +1,10 @@
 ---
 layout: page
 title: Style Guide
-image: /assets/images/help/bhutan-paro-uma-spa-attendant-portrait-1280w.jpg
+image: /assets/images/help/vassilis-mathioudakis-man-pidgeons-1280w.jpg
+image_credits: 
+  - name: "vassilis mathioudakis"
+    title: Untitled
 ---
 <p>My name is Thomas Vaeth and this is Barber. 💈 Barber is a minimal blog theme with a masonry grid layout and infinite scroll. <a href="http://samesies.io" target="_blank">Samesies</a> builds themes for Ghost, WordPress, and Jekyll and they are only available through ThemeForest.</p>
 
@@ -52,10 +55,10 @@ code {
 
 <hr/>
 
-<img src="/assets/images/help/bhutan-paro-uma-spa-attendant-portrait-1280w.jpg" alt="Grid Image - Bhutanese Girl by mark l chaves" title="Bhutanese Girl by mark l chaves"/>
+<img src="/assets/images/help/vassilis-mathioudakis-man-pidgeons-1280w.jpg" alt="Grid Image - {{ page.image_credits[0].title }} by {{ page.image_credits[0].name }}" title="{{ page.image_credits[0].title }} by {{ page.image_credits[0].name }}"/>
 <p>You can <code>use inline code</code> and append <code>#full</code> to the end of an image URL for full width images.</p>
 
-<img src="/assets/images/help/bhutan-paro-uma-spa-attendant-portrait-1280w.jpg#full" alt="Full Image - Bhutanese Girl by mark l chaves" title="Bhutanese Girl by mark l chaves"/>
+<img src="/assets/images/help/vassilis-mathioudakis-man-pidgeons-1280w.jpg#full" alt="Full Image - {{ page.image_credits[0].title }} by {{ page.image_credits[0].name }}" title="{{ page.image_credits[0].title }} by {{ page.image_credits[0].name }}"/>
 
 <hr/>
 
@@ -72,3 +75,7 @@ code {
 <hr/>
 
 <p>American apparel jean shorts terry richardson squid. Letterpress tattooed cray beard pinterest. Jean shorts tofu wayfarers, fap PBR swag banh mi. Organic chillwave scenester wayfarers semiotics salvia messenger bag, vice odd future.</p>
+
+<hr/>
+
+{% include image-credits.html %}

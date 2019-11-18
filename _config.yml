@@ -58,6 +58,9 @@ icons_path: /assets/images/icons/
 help_icon: question-solid.svg
 new_window_icon: new-window-icon-25w.png
 
+# Links
+ext_links: 'target="_blank" rel="noopener noreferrer"'
+
 # Pagination settings
 pagination:
   enabled: true
