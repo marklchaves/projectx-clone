@@ -4,6 +4,7 @@ title: "What is ProjectX?"
 date: 2019-11-04
 description: "ProjectX is a space for artists, photographers, architects, designers etc, which will hopefully be the antithesis of the social media platforms."
 image: /assets/images/about/mattia-velati-strip-vmpt-1280w.jpg
+image_credits: Mattia Velati
 author: craigaustin
 tags:
   - about
@@ -16,4 +17,4 @@ So instead of constantly uploading streams of work, every hour - every day, ther
   "I don't think about making art, just get it done. let everyone else decide if it's good or bad, whether they love it or hate it. while they are deciding, make even more art." ~Andy Warhol
 </blockquote>
 
-<pre>Feature photo by Mattia Velati.</pre>
+{% include image-credits.html %}
