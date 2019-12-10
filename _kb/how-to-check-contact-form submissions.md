@@ -7,13 +7,14 @@ date: 2019-11-11
 description: "How-to guide for checking contact form submissions hosted on Formcarry."
 author: marklchaves
 ---
+
 ## Introduction
 
-The theme that ProjectX was built on (Barber) used **Formcarry** by default for the contact form (popup modal). **Formcarry** allows only one free form. So, we decided to use **Formspree** instead (keeping with the minimalist motif). **JotForm** is a nice contender but a _heavier_ solution. JotForm uses iFrames, and it comes with many features we don't need at this time. We'd like to keep this site as light as possible.
+The theme that ProjectX was built on (Barber) used **Formcarry** by default for the contact form (popup modal). **Formcarry** allows only one free form. So, we decided to use **Formspree** instead (keeping with the minimalist motif). **JotForm** is a nice contender but a *heavier* solution. JotForm uses iFrames, and it comes with many features we don't need at this time. We'd like to keep this site as light as possible.
 
 **Formspree's** free plan offers unlimited free forms up to 50 submissions/month. So, **Formspree** will be our long-term forms solution.
 
-**Formcarry** is a temporary solution. We haven't changed it yet because the work is a bit out-of-scope at this time. Nevertheless, the **Formspree** account is under admin@projectx.is.
+**Formcarry** is a temporary solution. We haven't changed it yet because the work is a bit out-of-scope at this time. Nevertheless, the **Formcarry** account is under admin@projectx.is.
 
 ---
 
