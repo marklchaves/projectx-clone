@@ -3,6 +3,8 @@ GEM
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
+    cloudcannon-jekyll (1.1.0)
+      jekyll (>= 2.4.0, < 5)
     colorator (1.1.0)
     concurrent-ruby (1.1.4)
     em-websocket (0.5.1)
@@ -72,6 +74,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  cloudcannon-jekyll
   jekyll (~> 3.8.5)
   jekyll-paginate-v2
   jekyll-responsive-image
@@ -79,4 +82,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
