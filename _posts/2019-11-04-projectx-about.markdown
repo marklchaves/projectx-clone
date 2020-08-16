@@ -4,7 +4,8 @@ title: "What is ProjectX?"
 date: 2019-11-04
 description: "ProjectX is a space for artists, photographers, architects, designers etc, which will hopefully be the antithesis of the social media platforms."
 image: /assets/images/about/mattia-velati-strip-vmpt-1280w.jpg
-image_credits: Mattia Velati
+image_credits: 
+  - name: Mattia Velati
 author: craigaustin
 tags:
   - about
