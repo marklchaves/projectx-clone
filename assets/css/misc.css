@@ -16,10 +16,18 @@ a:link, a:visited {
 .image-credits {
   background-color: #eff0f1;
   font-family: 'Courier New', Courier, monospace;
-  padding: 1em;
+  font-size: 0.75em;
+  padding: 1%;
 }
 .warning {
   background-color: black; 
   color: white;
   padding: 0.5em;
+}
+
+/* Overrides */
+@media screen and (min-width: 1024px) {
+  .post__img {
+    height: 100vh;
+  }
 }
