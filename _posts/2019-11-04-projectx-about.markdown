@@ -6,6 +6,7 @@ description: "ProjectX is a space for artists, photographers, architects, design
 image: /assets/images/about/mattia-velati-strip-vmpt-1280w.jpg
 image_credits: 
   - name: Mattia Velati
+    title: Strip
 author: craigaustin
 tags:
   - about
