@@ -15,7 +15,7 @@ ProjectX is a space for artists, photographers, architects, designers etc, which
 So instead of constantly uploading streams of work, every hour - every day, there will be a 20 minute window, once a week to upload work (hence timer). To be selected then published on our website.
 
 <blockquote id="about-inspirational-quote" class="editable">
-  "I don't think about making art, just get it done. let everyone else decide if it's good or bad, whether they love it or hate it. while they are deciding, make even more art." ~Andy Warhol
+  "I don't think about making art, just get it done. Let everyone else decide if it's good or bad, whether they love it or hate it. While they are deciding, make even more art." ~Andy Warhol
 </blockquote>
 
 {% include image-credits.html %}
