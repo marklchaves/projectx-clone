@@ -7,7 +7,7 @@ image: /assets/images/help/nige-ollis-iris-1280w.jpg
 image_credits: 
   - name: Nige Ollis
     title: Iris
-author: craigaustin
+author: marklchaves
 tags:
   - about
 ---
@@ -22,17 +22,75 @@ Here's a short montage of photographs from our first contributors.
 
 ## Meet the Contributors
 
+### Example - Mark
+
+<img src="https://marklchaves.files.wordpress.com/2020/01/bhutan-paro-mark-self-portrait-down-bw-512w.jpg" alt="" title=""/>
+
+Ubud, Bali
+
+#### Short Bio
+
+My father was an avid photographer. He gave me his Minolta SRT 101 and taught me the basics. This was around 1982 in Youngstown, Ohio.
+
+I loved that camera because I could manually play with exposures and make my photos look different from everyone elses. I passed it down to my daughter who still uses it today.
+
+I've contributed to microstock companies, Airbnb Plus, and editorial magazines. I run a donation-based street photography tour in Ubud. I had one film photograph (scanned negative) displayed in Milan at the Contrasto Gallery as a finalist.
+
+I'm based in Bali. I feed stray dogs and cats.
+
+See Mark's contribution.
+
+[caught my eye](https://caughtmyeye.cc/)
+
+[Bali Street Photographer](https://balistreetphotographer.com/)
+
 ### Mattia
 
+Portrait
 
+Location
+
+Short Bio (include works)
+
+See Mattia's [contribution](https://chosen-dunlin.cloudvent.net/about).
+
+Links to portfolio
 
 ### Dru
 
+Location
+
+Short Bio (include works)
+
+See Dru's [contribution](https://projectx.is/). Click on **Reach Out** in the top menu.
+
+Links to portfolio
+
 ### Vassilis
+
+Location
+
+Short Bio (include works)
+
+See Vassilis' [contribution](https://chosen-dunlin.cloudvent.net/style-guide).
+
+Links to portfolio
 
 ### Nige
 
-We hope you enjoyed this first round of contributions. Don't worry, there will be much more to come.
+Portrait
+
+Location
+
+Short Bio (include works)
+
+See Nige's [contribution](https://marklchaves.typeform.com/to/l94DJG).
+
+Links to portfolio
+
+---
+
+We hope you enjoyed our _inaugural_ round of contributions. Don't worry, there will be much more to come.
 
 Now, don't be shy. Start a comment thread below, reach out to the contributors, and be a contributor yourself!
 
