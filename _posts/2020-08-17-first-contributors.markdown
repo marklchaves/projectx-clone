@@ -22,6 +22,8 @@ Here's a short montage of photographs from our first contributors.
 
 ---
 
+---
+
 ## Meet the Contributors
 
 ### Craig
