@@ -5,7 +5,7 @@ date: 2020-08-17
 description: "Meet ProjectX's first contributors: Mattia, Dru, Vassilis, and Nige."
 image: /assets/images/help/nige-ollis-iris-1280w.jpg
 image_credits: 
-  - name: Nige Ollis
+  - name: Nige' Ollis
     title: Iris
 author: marklchaves
 tags:
