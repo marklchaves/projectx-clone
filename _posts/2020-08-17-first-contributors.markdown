@@ -100,41 +100,6 @@ I'm based in Bali. I feed stray dogs and cats.
 
 ---
 
-### Mathioudakis
-
-Portrait
-
-#### Tell us a bit about the project, for example why you never finished it or how you would return to it after a period of time away from it. 
-
-My neighborhood is a project about the area i live. But i never consider a project as a beginning or as an end. I don't believe in that! Always random is the real god in art or in creation. I just let things to happen without following a certain order. Sometimes you just follow the road and what
-ever comes...so the man with the pigeons was there for many years, slowly taking the form of death in his loneliness but the pigeons were the hope that he will fly soon with them.
-
-#### Where are you based?
-
-#### Bio
-
-See Mathioudakis' [contribution](https://chosen-dunlin.cloudvent.net/style-guide).
-
-#### Links
-
----
-
-### Mattia
-
-Portrait
-
-#### Tell us a bit about the project, for example why you never finished it or how you would return to it after a period of time away from it. 
-
-#### Where are you based?
-
-#### Bio
-
-See Mattia's [contribution](https://chosen-dunlin.cloudvent.net/about).
-
-#### Links
-
----
-
 ### Nige'
 
 Portrait
@@ -185,6 +150,25 @@ more creative way. Something that speaks to me.....
 #### Bio
 
 See Ushi's [contribution]().
+
+#### Links
+
+---
+
+### Vasilis
+
+Portrait
+
+#### Tell us a bit about the project, for example why you never finished it or how you would return to it after a period of time away from it. 
+
+My neighborhood is a project about the area i live. But i never consider a project as a beginning or as an end. I don't believe in that! Always random is the real god in art or in creation. I just let things to happen without following a certain order. Sometimes you just follow the road and what
+ever comes...so the man with the pigeons was there for many years, slowly taking the form of death in his loneliness but the pigeons were the hope that he will fly soon with them.
+
+#### Where are you based?
+
+#### Bio
+
+See Vasilis' [contribution](https://chosen-dunlin.cloudvent.net/style-guide).
 
 #### Links
 
