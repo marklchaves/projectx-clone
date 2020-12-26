@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ProjectX's First Contributors"
-date: 2020-08-17
+date: 2020-12-26
 description: "Meet ProjectX's first contributors: Mattia, Dru, Vassilis, and Nige."
 image: /assets/images/help/nige-ollis-iris-1280w.jpg
 image_credits: 
@@ -28,7 +28,7 @@ Here's a short montage of photographs from our first contributors.
 
 ### Craig
 
-Portrait
+<img src="/assets/images/about/craig-portrait-512w.jpg" alt="Portrait of Craig" title="Portrait of Craig"/>
 
 #### Tell us a bit about the project, for example why you never finished it or how you would return to it after a period of time away from it. 
 
@@ -64,7 +64,7 @@ See Dru's [contribution](https://projectx.is/). Click on **Reach Out** in the to
 
 ### Mark
 
-<img src="https://marklchaves.files.wordpress.com/2020/01/bhutan-paro-mark-self-portrait-down-bw-512w.jpg" alt="" title=""/>
+<img src="/assets/images/about/bhutan-paro-mark-self-portrait-down-bw-512w.jpg" alt="Portrait of Mark in Bhutan" title="Portrait of Mark in Bhutan"/>
 
 #### Tell us a bit about the project, for example why you never finished it or how you would return to it after a period of time away from it. 
 

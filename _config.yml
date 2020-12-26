@@ -13,13 +13,9 @@ twitter_username: craigaustinFRSA
 default_img: /assets/images/projectx-favicon.png
 social:
   - name: twitter
-    url: https://twitter.com/craigaustinFRSA
-  - name: instagram
-    url: https://www.instagram.com/Vimpt
+    url: https://twitter.com/ProjectXis
   - name: github
     url: https://github.com/Projectx-hub/projectx
-  - name: codepen
-    url: https://codepen.io/marklchaves
 
 # Contact settings
 contact_img: /assets/images/dru-nadler-untitled-600w.jpg
