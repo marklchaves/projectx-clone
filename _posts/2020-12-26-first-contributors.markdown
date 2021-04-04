@@ -18,7 +18,7 @@ We are a community of artists. Our gratification comes from sharing the art that
 
 Here's a short montage of photographs from our first contributors. 
 
-<img src="/assets/images/posts/projectx-feature-images-lo-op.gif" alt="" title=""/>
+![ProjectX featured images](/assets/images/posts/projectx-feature-images-lo-op.gif "ProjectX featured images")
 
 ---
 
