@@ -1,22 +1,23 @@
 ---
-layout: default
+layout: page
 title: Home
-pagination:
-  enabled: true
+image: /assets/images/about/mattia-velati-strip-vmpt-1280w.jpg
+image_credits:
+  - name: Mattia Velati
+    title: Strip
 ---
-<!-- The main content area -->
-<div class="posts">
-  <div class="grid-xlarge">
-    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
+<div id="about-intro" class="editable">
+  <p>ProjectX is a space for artists, photographers, architects, designers etc, which will hopefully be the antithesis of the social media platforms. No likes, no followers, not having constantly produce content to help drive their money making machine forward and being punished by algorithms if you don’t obey!</p>
 
-      {% for post in paginator.posts %}
-
-        <!-- The tag below includes the markup for each post - partials/post-card.html -->
-        {% include post-card.html %}
-
-      {% endfor %}
-    </div>
-  </div>
-
-  {% include pagination.html %}
+  <p>So instead of constantly uploading streams of work, every hour - every day, there will be a 20 minute window, once a week to upload work (hence timer). To be selected then published on our website.</p>
 </div>
+
+<hr/>
+
+<blockquote id="about-inspirational-quote" class="editable">
+  "I don't think about making art, just get it done. Let everyone else decide if it's good or bad, whether they love it or hate it. While they are deciding, make even more art." ~Andy Warhol
+</blockquote>
+
+<hr/>
+
+{% include image-credits.html %}

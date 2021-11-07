@@ -45,6 +45,9 @@ disqus: projectxis
 # Moved to _data/authors.yml
 
 collections:
+  contributors:
+    output: true
+    permalink: /:collection/:path/
   kb:
     output: true
     permalink: /:collection/:path/
