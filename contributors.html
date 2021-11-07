@@ -1,0 +1,13 @@
+---
+layout: page
+title: Contributors
+pagination:
+  enabled: true
+  collection: contributors
+---
+
+{% for contributor in paginator.posts %}
+
+<p><a href="{{ contributor.url }}">{{ contributor.title }}</a></p>
+
+{% endfor %}

@@ -1,8 +1,15 @@
 ---
-name: mark l chaves
-passions: 
-  - photography
-  - content writing
-  - web development
+layout: page
+title: mark l chaves
+contributor:
+  name: 
+    first: Mark
+  passions: 
+    - photography
+    - writing
+    - coding
 ---
-Mark and his wife Tara feed the stray dogs and cats of bali.
+
+{% assign contributor = page.contributor %}
+
+{{ contributor.name.first }} and his wife Tara feed the stray dogs and cats of bali.
