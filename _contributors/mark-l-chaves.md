@@ -8,6 +8,7 @@ contributor:
     - photography
     - writing
     - coding
+image: /assets/images/about/bhutan-paro-mark-self-portrait-down-bw-512w.jpg
 ---
 
 {% assign contributor = page.contributor %}

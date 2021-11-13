@@ -1,13 +1,34 @@
 ---
-layout: page
+layout: default
 title: Contributors
 pagination:
   enabled: true
   collection: contributors
 ---
+<section class="post">
+    <div>
+      <div class="post__header section-padding--double">
+        <div class="grid-small">
+            <h1>{{ page.title }}</h1>
+        </div>
+      </div>
+    </div>
+</section>
 
-{% for contributor in paginator.posts %}
+<!-- The main content area -->
+<div class="posts">
+    <div class="grid-xlarge">
+      <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
 
-<p><a href="{{ contributor.url }}">{{ contributor.title }}</a></p>
+        {% for post in paginator.posts %}
 
-{% endfor %}
+            {% include post-card.html %}
+
+        {% endfor %}
+
+      </div>
+    </div>
+
+    {% include pagination.html %}
+
+</div>
