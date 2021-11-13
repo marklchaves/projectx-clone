@@ -98,7 +98,7 @@ window.$ = window.jQuery = jquery;
 
   ZoomService.prototype._clickHandler = function (e) {
     if (e.preventDefault) e.preventDefault()
-    else event.returnValue = false
+    else e.event.returnValue = false
 
     if ('bubbles' in e) {
       if (e.bubbles) e.stopPropagation()
