@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: contributor
 title: Craig Austin
 contributor:
   name: 
@@ -7,7 +7,7 @@ contributor:
   passions: 
     - fine art
     - photography
-image: /assets/images/about/craig-portrait-512w.jpg
+image: /assets/images/craig/craig-portrait-512w.jpg
 ---
 
 {% assign contributor = page.contributor %}

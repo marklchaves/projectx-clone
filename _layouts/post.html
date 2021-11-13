@@ -11,10 +11,12 @@ layout: default
       </div>
     </div>
 
-    {% if page.image %}
+    {% include featured.html %}
+
+    {% if featured %}
       <div class="post__img">
         <div>
-          <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
+          <figure class="absolute-bg" style="background-image: url('{{ featured }}');"></figure>
         </div>
       </div>
     {% endif %}

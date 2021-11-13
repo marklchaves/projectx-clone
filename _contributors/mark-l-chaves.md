@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: contributor
 title: mark l chaves
 contributor:
   name: 
@@ -8,9 +8,26 @@ contributor:
     - photography
     - writing
     - coding
-image: /assets/images/about/bhutan-paro-mark-self-portrait-down-bw-512w.jpg
+image: /assets/images/mark/bhutan-paro-mark-self-portrait-down-bw-512w.jpg
+featured: /assets/images/mark/bhutan-thimphu-main-street-market-men-walking-1280w.jpg
 ---
 
 {% assign contributor = page.contributor %}
 
 {{ contributor.name.first }} and his wife Tara feed the stray dogs and cats of bali.
+
+<!-- Swiper -->
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    <div class="swiper-slide">Slide 4</div>
+    <div class="swiper-slide">Slide 5</div>
+    <div class="swiper-slide">Slide 6</div>
+    <div class="swiper-slide">Slide 7</div>
+    <div class="swiper-slide">Slide 8</div>
+    <div class="swiper-slide">Slide 9</div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>

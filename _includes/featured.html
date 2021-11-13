@@ -1,0 +1,5 @@
+{% assign featured = page.featured %}
+
+{% unless featured %}
+  {% assign featured = page.image %}
+{% endunless %}
