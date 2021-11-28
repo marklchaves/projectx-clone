@@ -1,3 +1,5 @@
+/** Misc and Custom CSS */
+
 /* Links */
 a:link, a:visited {
   color: black;
@@ -23,6 +25,18 @@ a:link, a:visited {
   background-color: black; 
   color: white;
   padding: 0.5em;
+}
+
+/* "Automagic" image grid using no media queries */
+.images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-gap: 4rem;
+  place-items: center;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
 }
 
 /* Overrides */
