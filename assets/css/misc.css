@@ -1,5 +1,14 @@
 /** Misc and Custom CSS */
 
+/* From Adrian Garner on Stack Overflow */
+/* https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors */
+:target::before {
+  content: "";
+  display: block;
+  height: 56px; /* Fixed header height for this page. */
+  margin: -56px 0 0; /* To compensate for a huge space at the top. */
+}
+
 /* Links */
 a:link, a:visited {
   color: black;
