@@ -33,13 +33,13 @@ a:link, a:visited {
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   grid-gap: 4rem;
   place-items: center;
-  width: 100%;
-  max-width: 1280px;
+  width: 90vw;
   margin: 0 auto;
   margin-bottom: 6rem;
 }
 
-/* Overrides */
+/* Overrides and Media Queries */
+
 @media screen and (min-width: 1024px) {
   .post__img {
     height: 100vh;
